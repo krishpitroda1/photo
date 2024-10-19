@@ -6,7 +6,7 @@ import { useLocation } from "react-router-dom";
 import Contacts from "./components/Contacts";
 import Navbar from "./components/Navbar";
 // import Privacy from "./components/Privacy";
-// import End from './components/End';
+import End from './components/End';
 import { Route, Routes } from "react-router-dom";
 // import HashLoader from "react-spinners/HashLoader";
  import { useState} from "react";
@@ -45,15 +45,7 @@ function App() {
   });
   return (
    <div>
-    {/* {
-      loading ? <HashLoader
-      color={color}
-      loading={loading}
-      cssOverride={override}
-      size={50}
-      aria-label="Loading Spinner"
-      data-testid="loader" 
-    />:  */}
+   
     <div>
     <Navbar />
     <div className="container mt-20">
@@ -63,7 +55,7 @@ function App() {
         <Route path="/Contacts" element={<Contacts />} />
          </Routes>
     </div>
-    {/* <End className="absolute"/> */}
+    <End className="absolute"/>
   </div>
 
     
