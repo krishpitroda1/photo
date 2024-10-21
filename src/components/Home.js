@@ -7,6 +7,9 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { useEffect, useState, useRef } from "react";
 import img from "../assets/logo.jpg";
 import img1 from '../assets/one.jpg'
+import videobg1 from "../assets/videobg1.mp4";
+import videobg2 from "../assets/videobg2.mp4";
+
 // import img1 from '../assets/cons.jpeg';
 // import img4 from '../assets/tech2.jpg'
 // import img3 from "../assets/manage.jpg";
@@ -71,9 +74,9 @@ function Home() {
   return (
     <div className="w-screen homediv relative overflow-hidden">
       <Navbar />
-      <div className="relative pt-16">
+      <div className="relative lg:pt-6 pt-20">
         <video
-          src={videobg}
+          src={videobg2}
           className=" blur-sm top-3  absolute rounded-lg "
           autoPlay
           playsInline
@@ -81,17 +84,17 @@ function Home() {
           loop
         ></video>
 
-        <div className=" relative pt-14 lg:pt-16 my-auto first max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center text-5xl flex flex-col justify-center text-sky-400  overflow-hidden">
-       <h1 className="font-bold text-teal-300  text-3xl">Understand the Future of Communication with AI.</h1>
-        <h1 className="text-white relative font-bold lg:text-3xl p-2 text-3xl md:py-6">
+        <div className=" relative pt-14 lg:pt-10 my-auto first max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center text-5xl flex flex-col justify-center text-sky-400  overflow-hidden">
+       <h1 className="font-bold text-white  lg:text-6xl md:text-2xl md:pr-5">Understand the Future of Communication with AI</h1>
+        <h1 className="text-amber-900 relative font-bold lg:text-2xl p-2 lg:p-40 lg:pt-5 lg:pb-5 text-4xl md:text-2xl md:py-6">
         Join 1000+ MBA Students on a Nationwide Research & Analysis Journey to measure the Impact!
 
-<p className="font-bold text-teal-300 p-0 pt-3 text-3xl">
-Learn, Earn and Gain Entrepreneurial Experience While Analyzing AI's Impact on Indian Businesses.
+
+          </h1>
+<p className="font-bold text-white p-0 pt-3 text-2xl">
+Learn, Earn and Gain Entrepreneurial Experience While Analyzing AI's Impact on Indian Businesses
 {/* <span className="text-white text-4xl"> {words[index]}</span> */}
             </p>
-          </h1>
-
         </div>
       </div>
       {/* ----------------------------------------- service------------------------------------------------------- */}
@@ -107,13 +110,13 @@ Learn, Earn and Gain Entrepreneurial Experience While Analyzing AI's Impact on I
             className="w-[500px] mx-auto   my-4 rounded-2xl"
             alt=""
           />
-          <div className="flex flex-col justify-center text-center mx-auto ">
+          <div className="flex flex-col   mx-auto ">
             <RevealOnScroll>
-              <p className="font-bold lg:text-2xl text-2xl p-3 pr-4 text-center  text-gray-800 ">     This research internship allows MBA students to explore how AI is transforming
+              <p className="font-bold lg:text-2xl text-2xl p-3 lg:pt-20 pt-7 pr-4  lg:p-7 text-gray-800 "> This research internship allows MBA students to explore how AI is transforming
           communication channels in Indian businesses. Over 3-6 months, students visit local companies to gather insights.
        </p>
              </RevealOnScroll>
-         <div className="text-2xl text-gray-700 float-start">
+         <div className="text-2xl text-gray-700 lg:pl-7 md:pl-5 pl-4 ">
 
              <ul>
           <li>1000 MBA students from 100 top colleges</li>
@@ -123,7 +126,7 @@ Learn, Earn and Gain Entrepreneurial Experience While Analyzing AI's Impact on I
         </ul>
          </div>
       
-        <div className="p-3">
+        <div className="p-3 pl-7">
                   <Link to='/Services'>
                   <button className="rounded-md p-5 text-white bg-gray-800 ">
                     Read More 

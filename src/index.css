@@ -13,7 +13,8 @@
   background: linear-gradient(to right, rgb(56, 189, 248), rgb(59, 130, 246));
 }
 .divs {
-  background: linear-gradient(to right, rgb(56, 189, 248), rgb(59, 130, 246));
+  /* background: linear-gradient(to right, rgb(56, 189, 248), rgb(59, 130, 246)); */
+
 }
 video {
   object-fit: cover;
