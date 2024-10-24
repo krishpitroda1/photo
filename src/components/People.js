@@ -1,6 +1,6 @@
 import React, { useEffect ,useState,useRef} from "react";
 import img from "../assets/people1.jpeg";
-import img1 from "../assets/people2.jpeg";
+import img1 from "../assets/nareshsir.jpg";
 
 const RevealOnScroll = ({ children }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -43,7 +43,8 @@ function People() {
       <div className="">
         <h1 className="lg:l-5 sm:pl-5 pl-5 align-center text-gray-700 pt-10 text-center p-5  font-bold text-3xl">
         <RevealOnScroll>
-        People Behind 
+        Meet the Visionaries
+        
         </RevealOnScroll>
         </h1>
       </div>
@@ -51,22 +52,22 @@ function People() {
         <RevealOnScroll>
         <div className="lg:flex md:grid lg:grid-cols-2 md:pl-3 md:p-5 lg:p-0   sm:p-0">
            <img
-            className="w-[500px] rounded-2xl mx-auto  "
-            src={img}
-            alt="/"
+            className=" w-[400px] h-[300px] mx-auto rounded-2xl  "
+            src={img}            alt="/"
           /> 
           <div className="flex flex-col lg:pl-5 justify-center">
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
             <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
-          <RevealOnScroll>
-          Mr. Ashish Bavishi is a seasoned senior management professional with over 30 years of experience spanning P&L management, marketing, strategy, and business development across telecom, fintech, and mobility sectors. He has successfully led A2P messaging units to profitability, built strategic global partnerships, and driven growth in various market phases. Known for his entrepreneurial mindset, he excels in restructuring businesses to maximize ROI. Recently, his company was awarded “Best Enterprise SMS Provider” and “Best CSR Company,” while Mr. Bavishi earned recognition as the 2nd Best in the “Male Telco Award” category.</RevealOnScroll>
-            </h1>
+        
+          Mr. Ashish Bavishi
+With over 30 years of experience in telecom, fintech, and mobility, Ashish is a proven leader in P&L management, marketing, and business development. He has led A2P messaging units to profitability and built strategic partnerships globally. Recently, his company won "Best Enterprise SMS Provider" and "Best CSR Company," while Ashish was named the 2nd Best in the "Male Telco Award" category.
+       </h1>
       </div>
         </div>
         </RevealOnScroll>
         <div className="lg:flex md:grid mt-20 lg:grid-cols-2 md:pl-3 md:p-5 lg:p-0 sm:p-0">
            <img
-            className="w-[500px] rounded-2xl mx-auto  "
+            className="w-[300px] lg:h-[300px] rounded-2xl mx-auto  "
             src={img1}
             alt="/"
           /> 
@@ -74,8 +75,8 @@ function People() {
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
             <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
         
-          Naresh Sonpal : Mr. Naresh Sonpal is a passionate leader with over two decades of experience in business enhancement, profit center management, and stakeholder engagement. He excels in business planning, coaching, and enabling seamless customer journeys while empowering teams. With deep expertise in technologies from Cloud to GenAI, he focuses on leveraging innovation for better living. A lifelong learner with the mindset of "miles to tread before I sleep," he now brings his expertise to SMSCloud Hub, ready to create impactful outcomes   </h1>
-      </div>
+            Mr. Naresh Sonpal
+Naresh brings over 20 years of expertise in business growth, profit management, and innovation. Known for his focus on customer experience and team empowerment, he leverages cutting-edge technologies, including Cloud and GenAI, to drive impactful results.</h1></div>
         </div>
       </div>
    

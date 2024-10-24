@@ -10,12 +10,11 @@ function Navbar() {
   const handlenav = () => {
     setNav(!nav);
   };
-  const [showMenu, setShowMenu] = useState(false);
   const [showRes, setShowRes] = useState(false);
-  const [showEnterPrise, setShowEnterPrise] = useState(false);
-  const [showOperator, setShowOperator] = useState(false);
-  const [showCarrier, setShowCarrier] = useState(false);
-  const [showTech, setShowTech] = useState(false);
+  const[showFun,setShowFun]=useState(false);
+  const[showAct,setShowAct]=useState(false);
+  const[show,setShow]=useState(false);
+ const[showFor,setShowFor]=useState(false);
 
   useEffect(() => {
     window.addEventListener("resize", (e) => {
@@ -136,7 +135,7 @@ function Navbar() {
                     <Link to="/Tpo">TPO</Link>
                   </li>
                   <li className="hover:text-sky-600 hover:font-bold  py-2 block">
-                    <Link to="/Collages">Collages</Link>
+                    <Link to="/Colleges">Colleges</Link>
                   </li>
                 </ul>
               </div>
@@ -210,7 +209,7 @@ function Navbar() {
           <Link to="/" onClick={() => setNav(true)}>
             <img
               src={Logo}
-              alt="Arrowtelelink"
+              alt="Ai1k"
               className="lg:cursor-pointer h-24 m-4 w-24"
             />
           </Link>
@@ -248,7 +247,7 @@ function Navbar() {
             <div className={`relative ml-10 ${showRes ? "block" : "hidden"}`}>
             <li className="border-b  border-gray-600">
               <Link
-                to="/Carrers"
+                to="/About"
                 className="py-7  inline-block hover:text-orange-600"
               >
                 About us
@@ -259,7 +258,7 @@ function Navbar() {
                 to="/AI1k"
                 className="py-7  inline-block hover:text-orange-600"
               >
-                AI1k Concept
+                Ai1k Concept
               </Link>
             </li>
      
@@ -271,14 +270,13 @@ function Navbar() {
               </Link>
            </div>
 </li>
-          <li className="border-b  border-gray-600 py-7">
-            <Link
-              className="dropdown-link py-7 md:block hover:text-orange-400" to='/Services'
-              
-              onClick={() => setShowMenu(!showMenu)}
-            >
-              <p className="flex droptext relative">
-                Services
+<li className="border-b  border-gray-600">
+        <div className="dropdown-link py-7 md:block hover:text-orange-400">
+              <p
+                className="flex droptext relative cursor-pointer"
+                onClick={() => setShowAct(!showAct)}
+              >
+                   Our Activites
                 <svg
                   className="dropdown-icon flex-shrink-0 ms-2 w-4 h-7"
                   xmlns="http://www.w3.org/2000/svg"
@@ -294,8 +292,133 @@ function Navbar() {
                   <path d="m6 9 6 6 6-6" />
                 </svg>
               </p>
-            </Link>
-          </li>
+            </div>
+            <div className={`relative ml-10 ${showAct ? "block" : "hidden"}`}>
+            <li className="border-b  border-gray-600">
+              <Link
+                to="/Consulting"
+                className="py-7  inline-block hover:text-orange-600"
+              >
+                Consulting
+              </Link>
+            </li>
+            <li className="border-b  border-gray-600">
+              <Link
+                to="/Vas"
+                className="py-7  inline-block hover:text-orange-600"
+              >
+                VAS
+              </Link>
+            </li>
+     
+              <Link
+                to="/Mentoring"
+                className="py-7 inline-block hover:text-orange-600"
+              >
+                Mentoring
+              </Link>
+           </div>
+</li>
+<li className="border-b  border-gray-600">
+        <div className="dropdown-link py-7 md:block hover:text-orange-400">
+              <p
+                className="flex droptext relative cursor-pointer"
+                onClick={() => setShowFor(!showFor)}
+              >
+                   For
+                <svg
+                  className="dropdown-icon flex-shrink-0 ms-2 w-4 h-7"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </p>
+            </div>
+            <div className={`relative ml-10 ${showFor ? "block" : "hidden"}`}>
+            <li className="border-b  border-gray-600">
+              <Link
+                to="/Students"
+                className="py-7  inline-block hover:text-orange-600"
+              >
+                Students
+              </Link>
+            </li>
+            <li className="border-b  border-gray-600">
+              <Link
+                to="/Tpo"
+                className="py-7  inline-block hover:text-orange-600"
+              >
+                TPO
+              </Link>
+            </li>
+     
+              <Link
+                to="/Colleges"
+                className="py-7 inline-block hover:text-orange-600"
+              >
+                Colleges
+              </Link>
+           </div>
+</li>
+<li className="border-b  border-gray-600">
+        <div className="dropdown-link py-7 md:block hover:text-orange-400">
+              <p
+                className="flex droptext relative cursor-pointer"
+                onClick={() => setShowFun(!showFun)}
+              >
+                  Fun & CSR
+                <svg
+                  className="dropdown-icon flex-shrink-0 ms-2 w-4 h-7"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </p>
+            </div>
+            <div className={`relative ml-10 ${showFun ? "block" : "hidden"}`}>
+            <li className="border-b  border-gray-600">
+              <Link
+                to="/Csr"
+                className="py-7  inline-block hover:text-orange-600"
+              >
+                CSR
+              </Link>
+            </li>
+            <li className="border-b  border-gray-600">
+              <Link
+                to="/Fun"
+                className="py-7  inline-block hover:text-orange-600"
+              >
+              Fun Friday
+              </Link>
+            </li>
+     
+              <Link
+                to="/Health"
+                className="py-7 inline-block hover:text-orange-600"
+              >
+                Health Month
+              </Link>
+           </div>
+</li>
+
+
       <li className="border-b  border-gray-600">
             <Link
               to="/Contacts"

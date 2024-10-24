@@ -10,7 +10,7 @@ import Error from "./components/Error";
 import Privacy from "./components/Privacy";
 import Tpo from "./components/Tpo";
 import Students from "./components/Students";
-import Collages from "./components/Collages";
+import Colleges from "./components/Colleges";
 import Consulting from "./components/Consulting";
 import Mentoring from "./components/Mentoring";
 import Vas from "./components/Vas";
@@ -74,7 +74,7 @@ function App() {
         <Route path="/Vas" element={<Vas/>} />
         <Route path="/Consulting" element={<Consulting/>} />
         <Route path="/Tpo" element={<Tpo/>} />
-        <Route path="/Collages" element={<Collages/>} />
+        <Route path="/Colleges" element={<Colleges/>} />
         <Route path="/Students" element={<Students/>} />
         <Route path="/Fun" element={<Fun/>} />
         <Route path="/Csr" element={<Csr/>} />

@@ -61,16 +61,14 @@ function Consulting() {
           Buisness Growth
             </h1>
           <p className="font-bold lg:text-2xl text-2xl p-3  pr-4  text-gray-800 "> 
-          Our Core Business Growth Practice helps clients improve their business operations by harnessing new technology. Our Drive increases product and service innovation, business development, and financial performance by speeding up time to market. Many a times our services helps customers in continuing to innovate.
-       </p>
+          Our Core Business Growth Practice empowers clients to enhance their operations by leveraging innovative technologies. We drive product and service innovation, accelerate business development, and improve financial performance, often helping customers maintain a competitive edge through continuous innovation.    </p>
        <div className="flex flex-col  justify-center">
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
             <h1 className="md:text-4xl sm:text-4xl text-blue-600 lg:text-3xl text-4xl font-bold p-5 pl-3 lg:pb-0">
-          Techonolog Tieup
+          Techonology Tieup
             </h1>
           <p className="font-bold lg:text-2xl text-2xl p-3  pr-4  text-gray-800 "> 
-          In an increasingly connected world, where paradigm shifts in information and communication technologies are unfolding, the focus is on figuring out how tech companies can use their innovation to help businesses transform and flourish globally.   </p>
-      </div>
+          In today’s interconnected world, where significant shifts in information and communication technologies are occurring, we focus on how tech companies can utilize their innovations to help businesses transform and thrive on a global scale. </p>   </div>
       </div>
     
         </div>

@@ -57,9 +57,26 @@ function Csr() {
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
             <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
           
-          Our CSR since inception, is an ongoing ritual and we all believe in participating in it. Feeding & hydrating birds - especially in peak summers, planting and nursing plants by every team member and promoting India's rural arcticians by using their products for festive corporate and personal gifting has been satisfying and very welcoming and appreciated. We have also won multiple international "Exemplary CSR Award" over the years.      </h1>
-      </div>
+            At SMSCloud Hub, our CSR initiatives are integral to our culture. From our inception, we have actively participated in various projects that benefit our community and the environment.  
+          <br />
+            We engage in activities such as:
+<br />
+•	Feeding and Hydrating Birds: Especially during peak summer months.
+<br />
+•	Planting and Nurturing Trees: Every team member contributes to planting initiatives to support a greener future.
+<br />
+•	Supporting Rural Artisans: We promote India's rural artisans by utilizing their products for festive corporate and personal gifting, creating a positive impact on their livelihoods.
+<br />
+Our commitment to these initiatives has earned us multiple international awards, including the "Exemplary CSR Award." We believe in giving back and making a difference in our society, fostering a culture of responsibility and compassion.
+
+            
+            </h1>
+            
+  
+            
+            </div>
         </div>
+   
         </RevealOnScroll>
     
       </div>

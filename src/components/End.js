@@ -123,8 +123,10 @@ function End() {
                 <p className="text-xl text-white cursor-pointer">Address</p>
               </RevealOnScroll>
                 <RevealOnScroll>
+                  <Link to="https://www.google.com/maps/place/SMSCloud+Hub/@22.989644,72.497359,20z/data=!4m6!3m5!1s0x395e9bf4765fe993:0xa21cf89753936894!8m2!3d22.989644!4d72.4973779!16s%2Fg%2F11t0pccxg_?hl=en&entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D">
               <p className="inline-flex p-2  ps-0 gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 cursor-pointer">
               B-614, World Trade Tower, Off S G Highway, Makarba, Ahmedabad, Gujarat,India,380051</p>
+                  </Link>
               </RevealOnScroll>
               <RevealOnScroll>
 
@@ -135,7 +137,7 @@ function End() {
             
               <p className="p-2 ps-0 gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 cursor-pointer">
               
-                info@smscloudhub.com
+                info@ai1k.online
               </p>
             </div>
           </div>
@@ -156,23 +158,25 @@ function End() {
               </Link>
               <Link
                 className="w-10 h-10 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-white hover:bg-white/10 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:ring-1 focus:ring-gray-600"
-                to="https://twitter.com/hub_sms?t=C2S_FCZlTT0OVUJxDgp-ug&s=09"
-              >
-                <FaXTwitter className="text-xl" />
-              </Link>
-              <Link
-                className="w-10 h-10 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-white hover:bg-white/10 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:ring-1 focus:ring-gray-600"
                 to="https://www.instagram.com/smscloudhub/?igshid=YmMyMTA2M2Y%3D"
               >
                 <FaInstagram className="text-xl" />
               </Link>
               <Link
                 className="w-10 h-10 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-white hover:bg-white/10 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:ring-1 focus:ring-gray-600"
-                to="https://www.linkedin.com/company/arrow-telelink/"
+                to="https://www.linkedin.com/company/smscloudhub"
               >
                 <FaLinkedin className="text-xl" />
               </Link>
-            </div>
+            
+              <Link
+                className="w-10 h-10 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-white hover:bg-white/10 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:ring-1 focus:ring-gray-600"
+                to="https://twitter.com/hub_sms?t=C2S_FCZlTT0OVUJxDgp-ug&s=09"
+              >
+                <FaXTwitter className="text-xl" />
+              </Link>
+             
+           </div>
           </div>
         </div>
         </RevealOnScroll>

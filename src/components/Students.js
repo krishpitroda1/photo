@@ -57,26 +57,25 @@ function Students() {
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
             <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
     
-          Ai1K internship offers MBA and engineering students hands-on exposure to real-world business environment impact created by AI (Artificial Intelligence)  by engaging with IT, online, and service sector companies. 
-      </h1>
+            The Ai1K internship offers MBA and engineering students hands-on experience in the impact of Artificial Intelligence (AI) on real-world business environments. By collaborating with IT, online, and service sector companies, students can enhance their skills in business analytics, communication, research methodology, and time management.   </h1>
       <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5 pt-2 pb-2">
 
-It helps them develop skills in research, communication, and business analytics through exploring AI's impact on corporate communication. Students gain practical experience, expand their networks, and strengthen their problem-solving abilities, all of which enhance their academic knowledge. 
+      Participants gain practical experience, expand their networks, and strengthen their problem-solving abilities, all while deepening their understanding of AI's influence on corporate communication. They also have the opportunity to promote a discount program, further developing their entrepreneurial and marketing skills.
 </h1>
 <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5 pt-2 pb-2">
+  Benifits include:
+<h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl italic font-serif font-bold p-5 pt-2 pb-2">
 
-The opportunity to promote a discount program also builds entrepreneurial skills, marketing and customer engagement skills, adding valuable insights relevant to their degrees and future careers.
-At the end of the succesful program you get....
+- 	I nternship Certificate
 <br />
-- Certificate of Internship.
-<br />
-- Result of your research .
+- Research Results
 <br />
 
 - Opportunity to be part of Top 10 and be part of Facilitation. 
 <br />
 
-- Opportunity to earn between 20,000 INR to 100,000 INR .
+- Earning potential between ₹20,000 to ₹100,000
+</h1>
 </h1>
       </div>
         </div>

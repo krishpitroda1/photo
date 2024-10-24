@@ -121,7 +121,7 @@ function Contacts() {
             <Link  to="https://wa.me/+919924494266" className='hover:text-gray-800'>
             <h3 class="font-semibold text-gray-600">Whatsapp</h3>
             <p class="mt-1 text-sm text-gray-500">Message On Whatsapp for answers to anything you might ask.</p>
-            <Link class="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-blue-900">
+            <Link to="https://wa.me/+919924494266" class="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-blue-900">
               Message On (+91)9924494266 For Whatsapp
            </Link>
            </Link>
@@ -134,8 +134,7 @@ function Contacts() {
           <div class="grow">
             <h3 class="font-semibold text-gray-600">Linkedin</h3>
             <p class="mt-1 text-sm text-gray-500">Connnect With our company on Linkedin</p>
-            <Link class="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-blue-900 " to="https://ww
-            w.linkedin.com/company/smscloudhub/">
+            <Link class="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-blue-900 " to="https://www.linkedin.com/company/smscloudhub">
               Connect Us on Linkedin
               <svg class="flex-shrink-0 w-2.5 h-2.5 transition ease-in-out group-hover:translate-x-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.975821 6.92249C0.43689 6.92249 -3.50468e-07 7.34222 -3.27835e-07 7.85999C-3.05203e-07 8.37775 0.43689 8.79749 0.975821 8.79749L12.7694 8.79748L7.60447 13.7596C7.22339 14.1257 7.22339 14.7193 7.60447 15.0854C7.98555 15.4515 8.60341 15.4515 8.98449 15.0854L15.6427 8.68862C16.1191 8.23098 16.1191 7.48899 15.6427 7.03134L8.98449 0.634573C8.60341 0.268455 7.98555 0.268456 7.60447 0.634573C7.22339 1.00069 7.22339 1.59428 7.60447 1.9604L12.7694 6.92248L0.975821 6.92249Z" fill="currentColor"/>
@@ -150,9 +149,9 @@ function Contacts() {
           <div class="grow">
             <h3 class="font-semibold text-gray-600">Contact us by email</h3>
             <p class="mt-1 text-sm text-gray-500">If you wish to write us an email instead please use</p>
-            <a class="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 " href="#">
-              hr@arrowtelelink.com
-            </a>
+            <Link class="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-gray-800 " >
+              info@ai1k.online
+            </Link>
           </div>
         </div>
       </div>

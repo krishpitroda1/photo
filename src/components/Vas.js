@@ -43,7 +43,7 @@ function Consulting() {
       <div className="">
         <h1 className="lg:l-5 sm:pl-5 pl-5 text-gray-700 pt-10 text-center p-5  font-bold text-3xl">
         <RevealOnScroll>
-        VAS
+        Value-Added Services (VAS)
         </RevealOnScroll>
         </h1>
       </div>
@@ -62,14 +62,14 @@ function Consulting() {
             Alliance Development & Management
             </h1>
           <p className="font-bold lg:text-2xl text-2xl p-3  pr-4  text-gray-800 "> 
-          We act as trusted advisors, assisting our clients in achieving breakthrough value by building comprehensive market-winning strategies with global alliances. We create data-driven programmes that help our clients transform their businesses with larger network and innovative ways </p>
+          As trusted advisors, we assist our clients in achieving exceptional value by developing comprehensive, market-winning strategies through global alliances. Our data-driven programs enable clients to transform their businesses by expanding their networks and embracing innovative solutions. </p>
        <div className="flex flex-col  justify-center">
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
             <h1 className="md:text-4xl sm:text-4xl text-blue-600 lg:text-3xl text-4xl font-bold p-5 pl-3 lg:pb-0">
           Communication
             </h1>
           <p className="font-bold lg:text-2xl text-2xl p-3  pr-4  text-gray-800 "> 
-          We provide CPaaS, SMS, Voice Connectivity, Platform & Managed Services; in India and Globally. </p>
+          We offer CPaaS, SMS, Voice Connectivity, Platform, and Managed Services, both in India and globally. </p>
       </div>
       <div className="flex flex-col  justify-center">
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
@@ -77,7 +77,7 @@ function Consulting() {
           Gaming
             </h1>
           <p className="font-bold lg:text-2xl text-2xl p-3  pr-4  text-gray-800 "> 
-          Our gaming business conveys a vivid encounter for gamers with an inventory that covers a wide scope of sorts and brags of the absolute best gaming IPs found in the new times. </p>
+          Our gaming division delivers an immersive experience for gamers, featuring a diverse inventory that encompasses various genres and includes some of the best gaming intellectual properties in recent years.</p>
       </div>
       </div>
     

@@ -57,10 +57,17 @@ function About() {
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
             <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
           <RevealOnScroll>
-          "SMSCloud Hub provides solutions for seamless communication through a cloud-based platforms empowering Carriers, Hubs, Telcos & Enterprise businesses to communicate through a variety of  channels including A2P SMS, making communication conversational, more personalized, fun, meaningful and with ease
-SMSCloud Hub is a team of experts having background in A2P SMS with operational excellence & excellent support 
-We thrive with Connectivity, Platform & Managed Services in India and International Market providing  solutions with the right mix of Cloud Technology & Telecommunications
-Our primary focus is Messaging, CPaaS & Technology"
+          SMSCloud Hub provides innovative, cloud-based communication solutions, empowering Carriers, Hubs, Telcos, and Enterprise businesses to connect seamlessly through multiple channels, including A2P SMS. Our platform makes communication more conversational, personalized, engaging, and user-friendly.
+          <br/>
+          <p className="pt-5">
+
+          Backed by a team of experts with deep knowledge in A2P SMS communication, cloud technology, and digital transformation, SMSCloud Hub is at the forefront of revolutionizing business communication. 
+          </p>
+          <p className="pt-5">
+          Our latest initiative, Ai1K, supports students in their academic journeys by offering real-world internship experiences. Through Ai1K, students can learn about the impact of AI, earn through valuable insights, and cultivate an entrepreneurial mindset.   </p>
+<br /> 
+{/* We thrive with Connectivity, Platform & Managed Services in India and International Market providing  solutions with the right mix of Cloud Technology & Telecommunications
+Our primary focus is Messaging, CPaaS & Technology. */}
 </RevealOnScroll>
             </h1>
       </div>

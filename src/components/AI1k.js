@@ -1,5 +1,6 @@
 import React, { useEffect ,useState,useRef} from "react";
 import img from "../assets/ai.jpeg";
+import { Link } from "react-router-dom";
 const RevealOnScroll = ({ children }) => {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef(null);
@@ -41,7 +42,7 @@ function Ai1k() {
       <div className="">
         <h1 className="lg:l-5 sm:pl-5 pl-5 align-center text-gray-700 pt-10 text-center p-5  font-bold text-3xl">
         <RevealOnScroll>
-        Ai1k concept
+        Ai1k: Concept
         </RevealOnScroll>
         </h1>
       </div>
@@ -57,10 +58,21 @@ function Ai1k() {
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
             <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
           <RevealOnScroll>
-          We are inviting 1,000 students from 100 MBA colleges across India to participate in a 3 to 6-month internship with us. The program requires no upfront payment, but participants must have a laptop, mobile, and vehicle for local visits. As part of their internship, students will engage with IT, online, and service sector companies in their area to explore the “Impact of AI on communication in their business.” They will collect insights by filling out an online questionnaire with essential questions. Additionally, they can promote our “Thank You” Program, which offers a 10% discount on the purchase of X.
-</RevealOnScroll>
+          Ai1K invites 1,000 students from over 150 Management and Engineering colleges across India to participate in a 2 to 3-months remote internship. This initiative is designed to provide hands-on experience in exploring the impact of AI on communication channels in Indian businesses.  <br />
+   
+   </RevealOnScroll>
             </h1>
+      <div className="p-3 pl-7">
+                  <Link to='/Students'>
+                  <button className="rounded-md p-5 text-white bg-gray-800 ">
+                    Learn More 
+                    
+                    </button>
+                  </Link>
+            
+          </div> 
       </div>
+
         </div>
         </RevealOnScroll>
       </div>

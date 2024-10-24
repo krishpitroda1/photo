@@ -57,13 +57,13 @@ function Tpo() {
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
             <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
         
-          This internship program can significantly benefit placement officers by providing MBA and engineering students with relevant industry exposure, enhancing their employability. Engaging with real-world companies helps students develop practical skills in business analysis, communication, and AI-driven technologies—attributes highly valued by recruiters. Successful participation strengthens students’ resumes, making them more competitive for final placements.
+            This internship program significantly enhances placement officers' ability to provide students with relevant industry exposure, boosting their employability. Engaging with real-world companies helps students cultivate essential skills in business analysis, communication, and AI-driven technologies—qualities highly sought after by recruiters.
 <br />
-At the end of the succesful program you get....
+Benifits includes:
 <br />
 - Certificate from SMSCloud Hub 
 <br />
-- Result of your research team      
+-Research team Results      
  </h1>
       </div>
         </div>
