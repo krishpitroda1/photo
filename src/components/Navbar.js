@@ -62,10 +62,10 @@ function Navbar() {
                   <li className="hover:text-sky-600 hover:font-bold py-2 block ">
                     <Link to="/AI1k">Ai1K Concept</Link>
                   </li>
-                  <li className="hover:text-sky-600 hover:font-bold  py-2 block">
+                  {/* <li className="hover:text-sky-600 hover:font-bold  py-2 block">
                     <Link to="/People">People Behind</Link>
                   </li>
-            
+             */}
                 </ul>
               </div>
             </p>
@@ -111,7 +111,7 @@ function Navbar() {
         <div className="p-5 text-black justify-around hidden md:flex">
           <div className="dropdown-link py-7 px-3 hidden md:block">
             <p className="flex droptext relative cursor-pointer font-semibold text-lg">
-              For
+              Benefits
               <svg
                 className="dropdown-icon flex-shrink-0 ms-2 w-4 h-6"
                 xmlns="http://www.w3.org/2000/svg"
@@ -262,12 +262,12 @@ function Navbar() {
               </Link>
             </li>
      
-              <Link
+              {/* <Link
                 to="/People"
                 className="py-7 inline-block hover:text-orange-600"
               >
                 People Behind
-              </Link>
+              </Link> */}
            </div>
 </li>
 <li className="border-b  border-gray-600">
@@ -325,7 +325,7 @@ function Navbar() {
                 className="flex droptext relative cursor-pointer"
                 onClick={() => setShowFor(!showFor)}
               >
-                   For
+                  Benfits
                 <svg
                   className="dropdown-icon flex-shrink-0 ms-2 w-4 h-7"
                   xmlns="http://www.w3.org/2000/svg"

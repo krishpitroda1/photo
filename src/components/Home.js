@@ -90,7 +90,7 @@ function Home() {
         Join over 1000+ MBA and engineering students nationwide in a collaborative research and analysis journey to assess the impact of AI!
 
           </h1>
-<p className="font-bold text-blue-800 p-0 italic pt-3 pl-5 pr-5  font-serif text-3xl">
+<p className="font-bold text-blue-800 p-0 italic pt-3 pl-5 pr-5 text-3xl">
 Learn, Earn, and Analyze the Future of AI-Driven Business Communication!{/* <span className="text-white text-4xl"> {words[index]}</span> */}
             </p>
         </div>

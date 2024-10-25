@@ -64,7 +64,7 @@ function Students() {
 </h1>
 <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5 pt-2 pb-2">
   Benifits include:
-<h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl italic font-serif font-bold p-5 pt-2 pb-2">
+<h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl italicfont-bold p-5 pt-2 pb-2">
 
 - 	I nternship Certificate
 <br />

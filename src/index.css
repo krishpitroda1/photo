@@ -5,8 +5,7 @@
 @layer base {
   body {
     overflow-x: hidden;
-
-    font-family: "Open Sans", sans-serif, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Calibri';
   }
 }
 .benefits {

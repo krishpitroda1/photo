@@ -58,8 +58,17 @@ function Ai1k() {
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
             <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
           <RevealOnScroll>
-          Ai1K invites 1,000 students from over 150 Management and Engineering colleges across India to participate in a 2 to 3-months remote internship. This initiative is designed to provide hands-on experience in exploring the impact of AI on communication channels in Indian businesses.  <br />
-   
+          The Ai1K project is an in-depth “Research based internship”  allowing Management or Technology students to explore how AI is transforming the landscape of Indian businesses.
+<p className="pt-2" />
+With Ai1K, our students can understand the Impact of AI on the various communication channels of Indian businesses and how it shapes the future of  communication. 
+<p className="pt-2" />
+
+This project is limited to Selected 1024 budding and enthusiastic Interns, from educational institutes who would participate the 2 to 4-months long initiative which would enable them to get real ground level insights of “The Real impact of AI in Communication.
+<p className="pt-2" />
+
+While industry bodies & educators are concerned with advent of AI and it impact in recent times and its subsequent effects;  it is imperative for companies in Telecom & Technology, Educators and Industry bodies to join hands to understand its perils and positives. 
+
+
    </RevealOnScroll>
             </h1>
       <div className="p-3 pl-7">

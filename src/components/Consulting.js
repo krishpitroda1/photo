@@ -58,17 +58,23 @@ function Consulting() {
           <div className="flex flex-col lg:pl-5 justify-center">
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
             <h1 className="md:text-4xl text-4xl sm:text-4xl pl-3 text-blue-600 lg:text-3xl font-bold p-5 lg:pb-0">
-          Buisness Growth
+            Acceleration & Tech Enablement 
+
             </h1>
           <p className="font-bold lg:text-2xl text-2xl p-3  pr-4  text-gray-800 "> 
-          Our Core Business Growth Practice empowers clients to enhance their operations by leveraging innovative technologies. We drive product and service innovation, accelerate business development, and improve financial performance, often helping customers maintain a competitive edge through continuous innovation.    </p>
-       <div className="flex flex-col  justify-center">
+          Our Core Business Growth Practice empowers clients to enhance their operations by leveraging innovative technologies. We drive product and service innovation, accelerate business development, and improve financial performance, often helping customers maintain a competitive edge through continuous innovation. 
+          </p>
+          <p className="font-bold lg:text-2xl text-2xl p-3  pr-4  text-gray-800 "> 
+          In today’s interconnected world, where significant shifts in information and communication technologies are occurring, we focus on how tech companies can utilize their innovations to help businesses transform and thrive on a global scale. 
+          </p>
+        
+       {/* <div className="flex flex-col  justify-center"> */}
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
-            <h1 className="md:text-4xl sm:text-4xl text-blue-600 lg:text-3xl text-4xl font-bold p-5 pl-3 lg:pb-0">
-          Techonology Tieup
-            </h1>
-          <p className="font-bold lg:text-2xl text-2xl p-3  pr-4  text-gray-800 "> 
-          In today’s interconnected world, where significant shifts in information and communication technologies are occurring, we focus on how tech companies can utilize their innovations to help businesses transform and thrive on a global scale. </p>   </div>
+     {/* /       <h1 className="md:text-4xl sm:text-4xl text-blue-600 lg:text-3xl text-4xl font-bold p-5 pl-3 lg:pb-0"> */}
+          {/* Techonology Tieup */}
+            {/* </h1> */}
+          {/* <p className="font-bold lg:text-2xl text-2xl p-3  pr-4  text-gray-800 ">  */}
+          {/* In today’s interconnected world, where significant shifts in information and communication technologies are occurring, we focus on how tech companies can utilize their innovations to help businesses transform and thrive on a global scale. </p>   </div> */}
       </div>
     
         </div>
