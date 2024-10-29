@@ -11,6 +11,7 @@ import Privacy from "./components/Privacy";
 import Tpo from "./components/Tpo";
 import Students from "./components/Students";
 import Colleges from "./components/Colleges";
+import Faq from "./components/Faq";
 import Consulting from "./components/Consulting";
 import Mentoring from "./components/Mentoring";
 import Vas from "./components/Vas";
@@ -79,6 +80,7 @@ function App() {
         <Route path="/Fun" element={<Fun/>} />
         <Route path="/Csr" element={<Csr/>} />
         <Route path="/Health" element={<Health/>} />
+        <Route path="/Faq" element={<Faq/>} />
         
      
          </Routes>
