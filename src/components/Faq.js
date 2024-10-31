@@ -12,7 +12,7 @@ const faqData = [
   },
   {
     question: "How do I apply for an internship?",
-    answer: "Students should connect with their college/institute's training & placement committee, request them to apply via them on info@ai1k.online. After that, you will be invited for an online test. If you excel in the online test, you will be informed by email and will be allotted a unique ID number mapped to your email ID for all future communications.",
+    answer: "SStudents should connect with their college/institute's training & placement committee, request them to apply via them on info@ai1k.online with list of students who want to participate in this nationwide initiative",
   },
   {
     question: "What is the duration of this internship?",
@@ -20,7 +20,7 @@ const faqData = [
   },
   {
     question: "Where will I need to travel to/visit for Ai1K?",
-    answer: "This is a remote internship opportunity and WFH (Work from Home). You have to visit the companies in your vicinity for research purposes.",
+    answer: "This is a remote internship opportunity and WFH (Work from Home). You have to visit the companies in your vicinity for research purpose.",
   },
   {
     question: "What devices/gadgets/tools do I need to participate and successfully complete Ai1K internship?",

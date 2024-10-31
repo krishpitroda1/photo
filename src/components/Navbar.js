@@ -60,7 +60,7 @@ function Navbar() {
                     <Link to="/About">About us</Link>
                   </li> 
                   <li className="hover:text-sky-600 hover:font-bold py-2 block ">
-                    <Link to="/AI1k">Ai1K Concept</Link>
+                    <Link to="/AI1k">Ai1k Concept</Link>
                   </li>
                   {/* <li className="hover:text-sky-600 hover:font-bold  py-2 block">
                     <Link to="/People">People Behind</Link>
@@ -95,13 +95,13 @@ function Navbar() {
                   <li className="hover:text-sky-600 hover:font-bold py-2 block ">
                     <Link to="/Consulting">Consulting</Link>
                   </li> 
-                  <li className="hover:text-sky-600 hover:font-bold py-2 block ">
-                    <Link to="/Vas">VAS</Link>
-                  </li>
                   <li className="hover:text-sky-600 hover:font-bold  py-2 block">
                     <Link to="/Mentoring">Mentoring</Link>
                   </li>
-                 </ul>
+                  <li className="hover:text-sky-600 hover:font-bold py-2 block ">
+                    <Link to="/Vas">VAS</Link>
+                  </li>
+                  </ul>
               </div>
             </p>
           </div>
@@ -132,7 +132,7 @@ function Navbar() {
                     <Link to="/Students">Students</Link>
                   </li> 
                   <li className="hover:text-sky-600 hover:font-bold py-2 block ">
-                    <Link to="/Tpo">TPO</Link>
+                    <Link to="/Tpo">T&P Committee</Link>
                   </li>
                   <li className="hover:text-sky-600 hover:font-bold  py-2 block">
                     <Link to="/Colleges">Colleges</Link>
@@ -168,7 +168,7 @@ function Navbar() {
                     <Link to="/Csr">CSR in our DNA</Link>
                   </li> 
                   <li className="hover:text-sky-600 hover:font-bold py-2 block ">
-                    <Link to="/Fun">Fun Friday</Link>
+                    <Link to="/Fun">Life @ SMSCloud Hub</Link>
                   </li>
                   <li className="hover:text-sky-600 hover:font-bold  py-2 block">
                     <Link to="/Health">Health Month</Link>
@@ -180,13 +180,13 @@ function Navbar() {
 
         </div>
        
-       <Link to="/Contacts" className=" py-7 lg:py-12 hidden md:block">
-         <p className="font-semibold text-lg">Contact Us</p>
-       </Link>
        <Link to="/Faq" className=" py-7 lg:py-12 hidden md:block">
          <p className="font-semibold text-lg">FAQs</p>
        </Link>
-      
+       <Link to="/Contacts" className=" py-7 lg:py-12 hidden md:block">
+         <p className="font-semibold text-lg">Contact Us</p>
+       </Link>
+       
 
       {/* <Link to="https://dashboard.hellotubelight.com/sign-in" className=" py-7 hidden md:block">
         
@@ -306,6 +306,12 @@ function Navbar() {
                 Consulting
               </Link>
             </li>
+            <Link
+                to="/Mentoring"
+                className="py-7 inline-block hover:text-orange-600"
+              >
+                Mentoring
+              </Link>
             <li className="border-b  border-gray-600">
               <Link
                 to="/Vas"
@@ -315,12 +321,7 @@ function Navbar() {
               </Link>
             </li>
      
-              <Link
-                to="/Mentoring"
-                className="py-7 inline-block hover:text-orange-600"
-              >
-                Mentoring
-              </Link>
+       
            </div>
 </li>
 <li className="border-b  border-gray-600">
@@ -360,7 +361,7 @@ function Navbar() {
                 to="/Tpo"
                 className="py-7  inline-block hover:text-orange-600"
               >
-                TPO
+                T&P committee
               </Link>
             </li>
      
@@ -409,7 +410,7 @@ function Navbar() {
                 to="/Fun"
                 className="py-7  inline-block hover:text-orange-600"
               >
-              Fun Friday
+              Life @ SMSCloud Hub
               </Link>
             </li>
      
@@ -421,6 +422,14 @@ function Navbar() {
               </Link>
            </div>
 </li>
+<li className="border-b  border-gray-600">
+            <Link
+              to="/Faq"
+              className="py-7 inline-block hover:text-orange-600"
+            >
+              FAQs
+            </Link>
+          </li>
 
 
       <li className="border-b  border-gray-600">
@@ -433,15 +442,7 @@ function Navbar() {
 
           </li>
 
-          <li className="border-b  border-gray-600">
-            <Link
-              to="/Faq"
-              className="py-7 inline-block hover:text-orange-600"
-            >
-              FAQs
-            </Link>
-          </li>
-
+        
         </ul>
       </div>
     </div>

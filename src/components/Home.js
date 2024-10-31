@@ -85,7 +85,7 @@ function Home() {
         ></video>
 
         <div className=" relative pt-14 lg:pt-10 my-auto first max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center text-5xl flex flex-col justify-center text-sky-400  overflow-hidden">
-       <h1 className="font-bold text-white  lg:text-6xl md:text-2xl md:pr-5">AI1K: Shaping the Future of Communication with AI</h1>
+       <h1 className="font-bold text-white  lg:text-6xl md:text-2xl md:pr-5">Ai1k: Shaping the Future of Communication with AI</h1>
         <h1 className="text-amber-900 relative font-bold lg:text-2xl p-2 lg:p-40 lg:pt-5 lg:pb-5 text-4xl md:text-2xl md:py-6">
         Join over 1000+ MBA and engineering students nationwide in a collaborative research and analysis journey to assess the impact of AI!
 
@@ -110,10 +110,10 @@ Learn, Earn, and Analyze the Future of AI-Driven Business Communication!{/* <spa
           />
           <div className="flex flex-col   mx-auto ">
             <RevealOnScroll>
-            <p className="font-bold lg:text-2xl text-2xl p-3 lg:pt-20 pt-7 pr-4  lg:p-7 lg:pb-0 text-gray-800 ">Ai1K is a comprehensive research-based internship designed for students to Analyze the transformative effects of Artificial Intelligence on the Indian business landscape.
+            <p className="font-bold lg:text-2xl text-2xl p-3 lg:pt-20 pt-7 pr-4  lg:p-7 lg:pb-0 text-gray-800 ">Ai1k is a comprehensive research-based internship designed for students to Analyze the transformative effects of Artificial Intelligence on the Indian business landscape.
            <p className="pt-5"/>
-           Through Ai1K, we aim to assess the impact of AI on communication channels across diverse sectors, shaping the way businesses interact and innovate.  
-       </p>       <p className="font-bold lg:text-2xl text-2xl p-3  pr-4  lg:p-7  text-gray-800 ">As part of the AI1K research journey, participants will uncover the evolving role of AI in business communications and explore its influence on Indian businesses and their stakeholders.
+           Through Ai1k, we aim to assess the impact of AI on communication channels across diverse sectors, shaping the way businesses interact and innovate.  
+       </p>       <p className="font-bold lg:text-2xl text-2xl p-3  pr-4  lg:p-7  text-gray-800 ">As part of the AI1k research journey, participants will uncover the evolving role of AI in business communications and explore its influence on Indian businesses and their stakeholders.
        </p>
              </RevealOnScroll>
          {/* <div className="text-2xl text-gray-700 lg:pl-7 md:pl-5 pl-4 ">

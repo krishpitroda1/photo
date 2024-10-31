@@ -64,7 +64,7 @@ function About() {
           Backed by a team of experts with deep knowledge in A2P SMS communication, cloud technology, and digital transformation, SMSCloud Hub is at the forefront of revolutionizing business communication. 
           </p>
           <p className="pt-5">
-          Our latest initiative, Ai1K, supports students in their academic journeys by offering real-world internship experiences. Through Ai1K, students can learn about the impact of AI, earn through valuable insights, and cultivate an entrepreneurial mindset.   </p>
+          Our latest initiative, Ai1k, supports students in their academic journeys by offering real-world internship experiences. Through Ai1k, students can learn about the impact of AI, earn through valuable insights, and cultivate an entrepreneurial mindset.   </p>
 <br /> 
 {/* We thrive with Connectivity, Platform & Managed Services in India and International Market providing  solutions with the right mix of Cloud Technology & Telecommunications
 Our primary focus is Messaging, CPaaS & Technology. */}

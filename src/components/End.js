@@ -131,7 +131,7 @@ function End() {
               <RevealOnScroll>
 
               <p className="inline-flex p-2 ps-0 gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 cursor-pointer">
-                (+91) 9924494266
+                +91 9924494266
               </p>
               </RevealOnScroll>
             

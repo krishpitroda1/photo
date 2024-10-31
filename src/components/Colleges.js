@@ -56,8 +56,8 @@ function Colleges() {
           <div className="flex flex-col lg:pl-5 justify-center">
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
             <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
-            The Ai1K internship program helps colleges distinguish themselves by offering students industry-relevant experiences with emerging technologies like AI. It bridges the gap between academic learning and real-world applications, thereby enhancing student employability. Successful internships lead to improved placement outcomes, bolstering the institution’s reputation among recruiters and stakeholders. </h1>
-            <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
+            By providing students with industry-relevant experiences with cutting-edge technologies like artificial intelligence, the Ai1k internship program helps institutions stand out from the competition. It improves students' employability by bridging the gap between academic learning and practical applications. Improved placement results from successful internships enhance the school's standing among stakeholders and recruiters. 
+            </h1><h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
             By participating, colleges showcase their commitment to practical learning and industry connections, making them more appealing to prospective students and partners.
        </h1>
       

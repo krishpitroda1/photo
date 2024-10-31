@@ -73,8 +73,8 @@ function Contacts() {
       </p>
     </div>
 
-    <div class="mt-12 grid items-center lg:grid-cols-2 gap-6 lg:gap-16 pb-10">
-      <div class="flex flex-col border rounded-xl p-4 sm:p-6 lg:p-8 divs bg-gray-800 text-gray-400">
+    <div class="mt-12 items-center p-10 pt-0">
+      {/* <div class="flex flex-col border rounded-xl p-4 sm:p-6 lg:p-8 divs bg-gray-800 text-gray-400">
         <h2 class="mb-8 text-xl font-semibold text-white ">
           Fill in the form
         </h2>
@@ -113,7 +113,7 @@ function Contacts() {
             </p>
           </div>
         </form>
-      </div> 
+      </div>  */}
       <div class="divide-y divide-gray-200 dark:divide-gray-800">
         <RevealOnScroll><div class="flex gap-x-7 py-6">
          <FaWhatsapp className='flex-shrink-0 w-6 h-6 mt-1.5 text-green-600' />
@@ -122,7 +122,7 @@ function Contacts() {
             <h3 class="font-semibold text-gray-600">Whatsapp</h3>
             <p class="mt-1 text-sm text-gray-500">Message On Whatsapp for answers to anything you might ask.</p>
             <Link to="https://wa.me/+919924494266" class="mt-2 inline-flex items-center gap-x-2 text-sm font-medium text-gray-600 hover:text-blue-900">
-              Message On (+91)9924494266 For Whatsapp
+              Message On +91 9924494266 For Whatsapp
            </Link>
            </Link>
           
@@ -154,6 +154,16 @@ function Contacts() {
             </Link>
           </div>
         </div>
+        <div className="p-3 pl-7 items-center text-center justify-items-center">
+                  <Link to='https://shorturl.at/q2H9i'>
+                  <button className="rounded-md p-5 text-white bg-gray-800 ">
+                    Learn More 
+                    
+                    </button>
+                  </Link>
+            
+          </div> 
+   
       </div>
     </div>
   </div>

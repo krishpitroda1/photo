@@ -57,13 +57,21 @@ function Tpo() {
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
             <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
         
-            This internship program significantly enhances placement officers' ability to provide students with relevant industry exposure, boosting their employability. Engaging with real-world companies helps students cultivate essential skills in business analysis, communication, and AI-driven technologies—qualities highly sought after by recruiters.
+            This internship program significantly enhances the training and placement committee's ability to provide students with relevant industry exposure, boosting their employability. Engaging with real-world companies helps students cultivate essential skills in business analysis, communication along with AI-driven technologies — skills and qualities highly sought after by recruiters.
+
+
 <br />
-Benifits includes:
+Benefits includes:
 <br />
-- Certificate from SMSCloud Hub 
+- Appreciation certificate from SMSCloud Hub
 <br />
--Research team Results      
+- Access to Result of student Research and Analysis 
+<br />
+- Access to global result of the research work done by all interns
+ 
+ <br />
+- Share bites on www.ai1k.online website and get featured and recognized by the jury at SMSCloud Hub.
+
  </h1>
       </div>
         </div>
