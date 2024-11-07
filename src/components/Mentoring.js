@@ -58,21 +58,21 @@ function Mentoring() {
             <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-5xl  font-bold p-5">
           
           At SMSCloud Hub, we recognize the importance of mentorship in fostering personal and professional growth. Our mentoring program provides students and aspiring professionals with valuable guidance from industry experts.      </h1>
-          <h1 className="md:text-4xl text-3xl sm:text-4xl pl-3 text-blue-600 lg:text-3xl font-bold p-5 lg:pb-0">
-          Key Offerings:   
+          <h1 className="md:text-4xl text-2xl sm:text-4xl pl-3 text-blue-600 lg:text-2xl font-bold p-5 pt-0 lg:pb-0">
+          Key Offering:
 
             </h1>
             <p className="font-bold lg:text-2xl text-2xl p-3  pr-4  text-gray-800 "> 
             •	Personalized Guidance: Mentors help identify strengths and set actionable goals.
             <br />
-•	Industry Insights: Gain knowledge about trends and best practices in telecom, IT, and international business.
+•	Industry Insights: Gain knowledge about trends and best practices in Telecom, IT, and international business.
 <br />
 
 •	Skill Development: Enhance critical skills such as business analysis, communication, and problem-solving.
 <br />
 •	Networking Opportunities: Connect with our extensive professional network for potential internships and job placements.
 <br />
-•	Supportive Environment: Build confidence and tackle new challenges with encouragement from experienced mentors.
+•	Supportive Environment: Build confidence and tackle new challenges with encouragement from experienced industry stalwarts.
 <br />
 By investing in future leaders, we aim to equip students with the tools they need to succeed in their careers and navigate the complexities of the business world.
 

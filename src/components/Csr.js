@@ -57,7 +57,7 @@ function Csr() {
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
             <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
           
-            At SMSCloud Hub, our CSR initiatives are integral to our culture. From our inception, we have actively participated in various projects that benefit our community and the environment.  
+            At SMSCloud Hub, our CSR initiatives are integral to our culture. Since our inception, we have actively participated in various projects that benefit our community and the environment.  
           <br />
             We engage in activities such as:
 <br />
@@ -67,8 +67,10 @@ function Csr() {
 <br />
 •	Supporting Rural Artisans: We promote India's rural artisans by utilizing their products for festive corporate and personal gifting, creating a positive impact on their livelihoods.
 <br />
-Our commitment to these initiatives has earned us multiple international awards, including the "Exemplary CSR Award." We believe in giving back and making a difference in our society, fostering a culture of responsibility and compassion.
+<p className="pt-2">
+Our commitment to these initiatives has earned us multiple international awards, including the "Exemplary CSR Award in 2024." We believe in giving back and making a difference to our society, fostering a culture of responsibility and compassion.
 
+  </p>
             
             </h1>
             

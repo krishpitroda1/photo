@@ -48,7 +48,7 @@ function Life() {
   <div class=" mx-auto text-center mb-10 lg:mb-14">
   <RevealOnScroll>
     <h2 class="text-2xl pt-5 font-bold md:text-4xl md:leading-tight text-gray-500">Life @ SMSCloud Hub</h2>
-    <p class="p-5  text-sky-600 text-lg">SMSCloud Hub Celebrates the Most Amazing and Unique Days of the Year with Style and Fun</p>
+    <p class="p-5  text-sky-600 text-lg">SMSCloud Hub celebrates the most amazing and unique days of the year with style and fun</p>
     </RevealOnScroll>
   </div>
   <RevealOnScroll>
@@ -65,7 +65,7 @@ function Life() {
           Make your Sandwich-Christmas Party
         </h3>
         <p class="mt-5 text-gray-800">
-        Our office Christmas party was a success! We had a great time celebrating our accomplishments, exchanging gifts, and enjoying some delicious food and drinks. #OfficeFun
+        Our office Christmas party was a success! We had a great time celebrating our accomplishments, Secret Santa, and enjoying some delicious food and drinks. #OfficeFun
         </p>
       </div>
     
@@ -98,20 +98,20 @@ function Life() {
     
     </p>
   
-       <p class="group flex flex-col h-full border border-gray-400 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 hover:bg-gray-300" href="#">
+       {/* <p class="group flex flex-col h-full border border-gray-400 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 hover:bg-gray-300" href="#">
       <div class="aspect-w-16 aspect-h-11">
         <img class="w-full object-cover rounded-xl" src={img4} alt="Image Description"/>
       </div>
       <div class="my-6">
         <h3 class="text-xl font-semibold text-sky-800">
-     Receving award is always team work
+     Receving an award is always team work
         </h3>
         <p class="mt-5 text-gray-600">
         The Benefits of Working in a High-Performing Team      
         </p>
       </div>
     
-    </p>
+    </p> */}
     <p class="group flex flex-col h-full border border-gray-400 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5  hover:bg-gray-300" href="#">
       <div class="aspect-w-16 aspect-h-11">
         <img class="w-full  rounded-xl h-[320px]" src={img2} alt="Image Description"/>
@@ -121,11 +121,11 @@ function Life() {
     A Birthday Bash
     </h3>
         <p class="mt-5 text-gray-600 ">
-        A Taste of Excellence: How We Enjoyed a Delicious Meal and Great Conversation at Our Office Party</p>
+        A Taste of Excellence: How we enjoyed a delicious meal and great conversation at our office party</p>
       </div>
        </p>
    
-    <p class="group flex flex-col h-full border border-gray-400 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5  hover:bg-gray-300" href="#">
+    {/* <p class="group flex flex-col h-full border border-gray-400 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5  hover:bg-gray-300" href="#">
       <div class="aspect-w-16 aspect-h-11">
         <img class="w-full object-cover rounded-xl" src={img3} alt="Image Description"/>
       </div>
@@ -137,8 +137,8 @@ function Life() {
         It was a result of a successful meeting where we showcased our value proposition and addressed their pain points.  </p>
       </div>
     
-    </p>
-    <p class="group flex flex-col h-full border border-gray-400 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5  hover:bg-gray-300" href="#">
+    </p> */}
+    {/* <p class="group flex flex-col h-full border border-gray-400 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5  hover:bg-gray-300" href="#">
       <div class="aspect-w-16 aspect-h-11">
         <img class="w-full object-cover rounded-xl" src={img8} alt="Image Description"/>
      
@@ -152,7 +152,7 @@ function Life() {
         </p>
       </div>
     
-    </p>
+    </p> */}
     <p class="group flex flex-col h-full border border-gray-400 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5  hover:bg-gray-300" href="#">
       <div class="aspect-w-16 aspect-h-11">
         <img class="  rounded-xl" src={img7} alt="Image Description"/>
@@ -163,7 +163,7 @@ function Life() {
         A Farewell to Our Interns
         </h3>
         <p class="mt-5 text-gray-800">
-        What We Learned from Them and What They Learned from Us.Congratulating Our Interns on Their Achievements
+        What we learned from them and what they learned from us. Congratulating our interns on their achievements
         </p>
       </div>
     
@@ -175,10 +175,10 @@ function Life() {
       </div>
       <div class="my-6">
         <h3 class="text-xl font-semibold text-sky-800 ">
-        Participation in Marathon
+        Marathon Time
         </h3>
         <p class="mt-5 text-gray-800">
-        How We Ran a Marathon Together and Strengthened Our Team Spirit  </p>
+        How we ran a marathon together and strengthened our team spirit  </p>
       </div>
     
     </p>

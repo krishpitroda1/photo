@@ -7,24 +7,24 @@ const faqData = [
     answer: "[AI = Artificial Intelligence & 1k = 1,024 candidates] This is a remote internship opportunity for students from MBA & Technical colleges across India.",
   },
   {
-    question: "Who can apply for internships on this website?",
-    answer: "This Internship is open for students from all nationalities studying in India, seeking work experience in AI domain.",
+    question: "Who can apply for this nationwide internship opportunity?",
+    answer: "This Internship is open for students from all nationalities studying in India, seeking internship experience and insights in AI domain.",
   },
   {
-    question: "How do I apply for an internship?",
-    answer: "SStudents should connect with their college/institute's training & placement committee, request them to apply via them on info@ai1k.online with list of students who want to participate in this nationwide initiative",
+    question: "How do I apply for this nationwide internship?",
+    answer: "Students should connect with their college/institute's Training & Placement Committee, request them to apply via email on info@ai1k.online with list of students who want to participate in this nationwide initiative",
   },
   {
     question: "What is the duration of this internship?",
-    answer: "Ai1k Nationwide Internship is for 8-12 weeks starting Dec 2025 and ongoing till Feb 2025.",
+    answer: "Ai1k Nationwide Internship is for 8-12 weeks starting Dec 2024 and ongoing till Feb 2025.",
   },
   {
     question: "Where will I need to travel to/visit for Ai1K?",
-    answer: "This is a remote internship opportunity and WFH (Work from Home). You have to visit the companies in your vicinity for research purpose.",
+    answer: "This is a remote internship opportunity and WFH (Work from Home). You have to visit the companies in your vicinity (local area) for research purpose.",
   },
   {
-    question: "What devices/gadgets/tools do I need to participate and successfully complete Ai1K internship?",
-    answer: "A working laptop and a phone with internet access are required. To visit companies in your vicinity, you may use your two-wheeler (Please wear a helmet while driving any two-wheeler).",
+    question: "What devices/gadgets/tools do I need, to participate and successfully complete the Ai1K internship?",
+    answer: "A working laptop and a phone with internet access is required. To visit companies in your vicinity (local area), you may use your two-wheeler (Please wear a helmet while riding the two-wheeler).",
   },
   {
     question: "Is this internship paid or unpaid?",
@@ -35,12 +35,12 @@ const faqData = [
     answer: "Yes. The Ai1K team shall conduct online training sessions for all students in multiple groups of 40 to 50 students in Hindi & English. These sessions will also be available for later reference.",
   },
   {
-    question: "Do I receive a certificate after completing an internship?",
+    question: "Do I receive a certificate after completing the Ai1k internship?",
     answer: "Yes, after successfully completing the internship with 100% attendance and timely data submission, digital completion certificates shall be issued.",
   },
   {
-    question: "What is the shortlisting and how long does the selection process take?",
-    answer: "After your institute has shared the necessary request and your details, you will be invited for an online test. If you excel, you will receive an email and a unique ID number mapped to your email for future communications.",
+    question: "What is the shortlisting criteria and how long does the selection process take?",
+    answer: "After your institute has shared the necessary request and your complete details, you will be invited for an online test. If you do well, you will receive an email with a unique ID number to confirm your selection.",
   },
   {
     question: "What skills or qualifications do I need to be selected?",
@@ -56,7 +56,7 @@ const faqData = [
   },
   {
     question: "What if I face any issues during the internship?",
-    answer: "If any intern faces issues during the internship, please contact our support team via the 'Contact Us WhatsApp link' or email us at info@ai1k.online.",
+    answer: "If any intern faces issues/problems during the internship, please contact our support team via the 'Contact Us WhatsApp link' or email us at info@ai1k.online.",
   },
   {
     question: "Can a selected intern apply for any job with SMSCloud Hub?",
@@ -77,7 +77,7 @@ const Faq = () => {
 
   return (
     <div className="faq-page">
-      <h1 className='text-3xl pb-10'>Frequently Asked Questions</h1>
+      <h1 className='text-3xl pb-10'>Frequently asked Questions</h1>
       <div className="faq-container text-2xl">
         {faqData.map((item, index) => (
           <div key={index} className="faq-item">

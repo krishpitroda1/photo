@@ -39,16 +39,16 @@ function Terms() {
   return (
     <div className='relative pt-7'>
          
-         <h1 className="align-center text-sky-600  pt-10 text-center w-screen  p-5  font-bold text-3xl ">
+         <h1 className="align-center text-gray-600  pt-10 text-center w-screen  p-5  font-bold text-3xl ">
          Terms and Conditions
              </h1>
          <RevealOnScroll>
 
          <div className=" w-screen p-10" >
           <p className="p-4 pb-0 text-lg font-sans font-bold">
-          Welcome to AI4k  </p>
+          Welcome to Ai1k</p>
           <p className="p-4  pb-0 ml-4 text-lg font-sans">
-          These terms and conditions outline the rules and regulations for the use of SMSCloud Hub's website and services, located at www.smscloudhub.com. By accessing this website and using our services, you agree to accept these terms and conditions. If you do not agree to all the terms and conditions stated on this page, please do not continue to use SMSCloud Hub</p>
+          These terms and conditions outline the rules and regulations for the use of Ai1k's website and services, located at www.ai1k.online. By accessing this website and using our services, you agree to accept these terms and conditions. If you do not agree to all the terms and conditions stated on this page, please do not continue to use Ai1k</p>
           <p className="p-4  pb-0 font-bold text-lg font-sans">
           Terminology     </p>
           <p className="p-4  pb-0 ml-4 text-lg font-sans">
@@ -59,7 +59,7 @@ function Terms() {
             </li>
         
             <li className="p-4  pb-0 ml-4 text-lg font-sans">
-            		“The Company,” “We,” “Our,” and “Us” refer to SMSCloud Hub.
+            		“The Company,” “We,” “Our,” and “Us” refer to Ai1k.
         
              </li>
              <li className="p-4  pb-0 ml-4 text-lg font-sans">
@@ -74,25 +74,25 @@ function Terms() {
           <p className="p-4 font-bold pb-0  text-lg font-sans">Cookies
   </p>
           <p className="p-4 ml-4 pb-0  text-lg font-sans">
-          We use cookies to enhance your experience on SMSCloud Hub. By accessing our website, you consent to the use of cookies in accordance with our Privacy Policy. Cookies help improve website functionality and may be used by our advertising and affiliate partners. </p>
+          We use cookies to enhance your experience on Ai1k. By accessing our website, you consent to the use of cookies in accordance with our Privacy Policy. Cookies help improve website functionality and may be used by our advertising and affiliate partners. </p>
            <p className="p-4 pb-0  text-xl font-sans font-bold">
            License </p> 
            <p>
 
            </p>
            <p className="p-4 ml-4 pb-0  text-lg font-sans">
-           Unless otherwise stated, SMSCloud Hub and/or its licensors own the intellectual property rights for all material on SMSCloud Hub. All intellectual property rights are reserved. You may access this material for personal use only, subject to the following restrictions:  
+           Unless otherwise stated, Ai1k and/or its licensors own the intellectual property rights for all material on Ai1k. All intellectual property rights are reserved. You may access this material for personal use only, subject to the following restrictions:  
            <li className="p-4  pb-0 ml-4 text-lg font-sans">
-           	You must not republish material from SMSCloud Hub without proper attribution. </li>
+           	You must not republish material from Ai1k without proper attribution. </li>
         
             <li className="p-4  pb-0 ml-4 text-lg font-sans">
-            You must not sell, rent, or sub-license material from SMSCloud Hub.
+            You must not sell, rent, or sub-license material from Ai1k.
              </li>
              <li className="p-4  pb-0 ml-4 text-lg font-sans">
             		“Party” refers to both the Client and ourselves.
              </li>
              <li className="p-4  pb-0 ml-4 text-lg font-sans">
-             	You must not redistribute content from SMSCloud Hub unless the content is specifically made for redistribution.  </li>
+             	You must not redistribute content from Ai1k unless the content is specifically made for redistribution.  </li>
          </p>
          <p className="p-4 pb-0  text-xl font-sans font-bold">
          
@@ -143,7 +143,7 @@ function Terms() {
           <p className="p-4 font-bold pb-0 text-xl font-sans">
           Limitation of Liability  </p>
           <p className="p-4 pb-0 ml-4 text-xl font-sans">
-          SMSCloud Hub will not be held liable for any damages arising out of the use or inability to use our website or services, to the extent permitted by law. This includes, but is not limited to, damages for data loss, business interruption, or any other losses. </p>
+          Ai1k will not be held liable for any damages arising out of the use or inability to use our website or services, to the extent permitted by law. This includes, but is not limited to, damages for data loss, business interruption, or any other losses. </p>
           <p className="p-4 font-bold pb-0 text-xl font-sans">
           Third-Party Services and Links </p>
           <p className="p-4 pb-0 ml-4 text-xl font-sans">

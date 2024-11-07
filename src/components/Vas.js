@@ -43,7 +43,7 @@ function Consulting() {
       <div className="">
         <h1 className="lg:l-5 sm:pl-5 pl-5 text-gray-700 pt-10 text-center p-5  font-bold text-3xl">
         <RevealOnScroll>
-        Value-Added Services (VAS)
+        Value-added Services (VAS)
         </RevealOnScroll>
         </h1>
       </div>
@@ -62,7 +62,7 @@ function Consulting() {
             Alliance Development & Management
             </h1>
           <p className="font-bold lg:text-2xl text-2xl p-3  pr-4  text-gray-800 "> 
-          As trusted advisors, we assist our clients in achieving exceptional value by developing comprehensive, market-winning strategies through global alliances. Our data-driven programs enable clients to transform their businesses by expanding their networks and embracing innovative solutions. </p>
+          As trusted advisors, we assist our clients to achieve exceptional value by developing comprehensive, market-winning strategies through global alliances. Our data-driven programs enable clients to transform their businesses by expanding their networks and embracing innovative solutions. </p>
        <div className="flex flex-col  justify-center">
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
             <h1 className="md:text-4xl sm:text-4xl text-blue-600 lg:text-3xl text-4xl font-bold p-5 pl-3 lg:pb-0">

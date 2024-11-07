@@ -58,11 +58,11 @@ function Students() {
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
             <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
     
-            The Ai1k internship offers Management and Technology students with an hands-on experience around the impact of Artificial Intelligence (AI) on real-world business environments.  By collaborating with IT, online and service sector companies, students can enhance their skills in research, business analytics, communication, lateral thinking and time management.
+            The Ai1k internship offers Management and Technology students with hands-on experience around the impact of Artificial Intelligence (AI) on real-world business environments.  By collaborating with IT, online and service sector companies, students can enhance their skills in research, business analytics, communication, lateral thinking and time management.
 </h1>
             <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5 pt-2 pb-2">
 
-            Participants will gain practical experience, expand their network along with sharpening their problem-solving abilities,  all while deepening their understanding of AI's influence they way corporate. They also have the opportunity to developentrepreneurial and marketing skills by offering services of SMSCloud Hub which leads to monetary benefits to students. 
+            Participants will gain practical experience, expand their network along with sharpening their problem-solving abilities,  all while deepening their understanding of AI's influence. They also have the opportunity to develop entrepreneurial and marketing skills by offering services of SMSCloud Hub which will lead to monetary benefits to the students. 
 
 </h1>
 <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5 pt-2 pb-2">
@@ -74,18 +74,12 @@ function Students() {
 <br />
 - Research Results
 <br />
--  Earning potential between ₹10,000 to ₹65,000
+-  Earning potential between INR 10,000 to 65,000
 </h1>
 
 </h1>
 <div className="p-3 pl-7">
-                  <Link to='/Students'>
-                  <button className="rounded-md p-5 text-white bg-gray-800 ">
-                    Learn More 
-                    
-                    </button>
-                  </Link>
-            
+              
           </div> 
       </div>
         </div>

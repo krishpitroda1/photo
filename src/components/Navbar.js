@@ -436,6 +436,7 @@ function Navbar() {
             <Link
               to="/Contacts"
               className="py-7 inline-block hover:text-orange-600"
+              
             >
               Contact Us
             </Link>

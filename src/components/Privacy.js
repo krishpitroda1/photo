@@ -39,14 +39,13 @@ function Privacy() {
   return (
     <div className='relative pt-7'>
          
-         <h1 className="align-center text-sky-600  pt-10 text-center w-screen  p-5  font-bold text-3xl ">
+         <h1 className="align-center text-gray-600  pt-10 text-center w-screen  p-5  font-bold text-3xl ">
             Privacy Policy
          </h1>
          <RevealOnScroll>
 
          <div className=" w-screen p-10" >
           <p className="p-4 pb-0 text-lg font-sans font-bold">
-           Who are we
         </p>
           {/* <p className="p-4  pb-0 ml-4 text-lg font-sans">
           Arrow Telelink (“us”, “we”, or “our”) operates CloudSkool++  app (the “Mobile app”). This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Mobile APP.

@@ -41,8 +41,7 @@ function Tpo() {
       <div className="">
         <h1 className="lg:l-5 sm:pl-5 pl-5 align-center text-gray-700 pt-10 text-center p-5  font-bold text-3xl">
         <RevealOnScroll>
-    TPO
-        </RevealOnScroll>
+    Training & Placement Committee       </RevealOnScroll>
         </h1>
       </div>
       <div className="">
@@ -53,24 +52,23 @@ function Tpo() {
             src={img}
             alt="/"
           /> 
-          <div className="flex flex-col lg:pl-5 justify-center">
+          <div className="flex flex-col lg:pl-5 ">
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
             <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
         
             This internship program significantly enhances the training and placement committee's ability to provide students with relevant industry exposure, boosting their employability. Engaging with real-world companies helps students cultivate essential skills in business analysis, communication along with AI-driven technologies — skills and qualities highly sought after by recruiters.
-
-
-<br />
-Benefits includes:
+<p className="pt-3">
+Benefits include:
 <br />
 - Appreciation certificate from SMSCloud Hub
 <br />
-- Access to Result of student Research and Analysis 
-<br />
-- Access to global result of the research work done by all interns
+- Access to all Research Results and intern Research and analysis 
+{/* <br />
+- Access to global result of the research work done by all interns */}
  
  <br />
-- Share bites on www.ai1k.online website and get featured and recognized by the jury at SMSCloud Hub.
+- Share bites on www.ai1k.online website and get featured and recognized by the jury.
+</p>
 
  </h1>
       </div>

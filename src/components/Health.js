@@ -56,10 +56,10 @@ function Health() {
           <div className="flex flex-col lg:pl-5 justify-center">
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
             <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
-            Health Month is one of our flagship initiatives focused on promoting well-being among our team. During this event, we encourage our members to monitor their water intake, engage in physical activities like yoga, stretching, cycling, and light weight training, and manage their daily steps and personal weight.
+            Health Month is one of our flagship initiatives focused on promoting well-being among our team. During this period, we encourage our members to monitor their water intake, engage in physical activities like yoga, stretching, cycling, and light weight training, and manage their daily steps and their BMI.
             </h1>
             <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
-            At the end of the 30-day challenge, participants are rewarded for their dedication to healthy living, reinforcing our commitment to wellness and camaraderie.We are planning to invite all participating students of the Ai1K program join us in this journey toward better health and wellness by participating in Health Month ! 
+            At the end of the 30-day challenge, participants are rewarded for their dedication towards healthy living, reinforcing our commitment to wellness and camaraderie. We intend to invite all participating students of the Ai1K program to join us in this journey toward better health and wellness.
             </h1>
    
       </div>
