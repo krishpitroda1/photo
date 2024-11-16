@@ -86,11 +86,11 @@ function Home() {
           />
           <div className="flex flex-col   mx-auto ">
             <RevealOnScroll>
-              <p className="font-bold lg:text-2xl text-2xl p-3 lg:pt-20 pt-7 pr-4  lg:p-7 text-gray-800 "> This research internship allows MBA students to explore how AI is transforming
+              <p className="font-bold lg:text-xl text-xl p-3 lg:pt-20 pt-7 pr-4  lg:p-7 text-gray-800 "> This research internship allows MBA students to explore how AI is transforming
           communication channels in Indian businesses. Over 3-6 months, students visit local companies to gather insights.
        </p>
              </RevealOnScroll>
-         <div className="text-2xl text-gray-700 lg:pl-7 md:pl-5 pl-4 ">
+         <div className="text-xl text-gray-700 lg:pl-7 md:pl-5 pl-4 ">
 
              <ul>
           <li>1000 MBA students from 100 top colleges</li>
@@ -113,7 +113,7 @@ function Home() {
           />
           <div className="flex flex-col   mx-auto ">
             <RevealOnScroll>
-          <div className="text-2xl text-gray-800 pt-16 md:pl-5  ">
+          <div className="text-xl text-gray-800 pt-16 md:pl-5  ">
 
             <ul>
           <li>  Real-world exposure by engaging with IT and service sector companies.

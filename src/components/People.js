@@ -57,7 +57,7 @@ function People() {
           /> 
           <div className="flex flex-col lg:pl-5 justify-center">
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
-            <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
+            <h1 className="md:text-xl sm:text-xl text-blue-600 text-xl font-bold p-5">
         
           Mr. Ashish Bavishi
 With over 30 years of experience in telecom, fintech, and mobility, Ashish is a proven leader in P&L management, marketing, and business development. He has led A2P messaging units to profitability and built strategic partnerships globally. Recently, his company won "Best Enterprise SMS Provider" and "Best CSR Company," while Ashish was named the 2nd Best in the "Male Telco Award" category.
@@ -73,7 +73,7 @@ With over 30 years of experience in telecom, fintech, and mobility, Ashish is a 
           /> 
           <div className="flex flex-col lg:pl-5 justify-center">
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
-            <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
+            <h1 className="md:text-xl sm:text-xl text-blue-600 text-xl font-bold p-5">
         
             Mr. Naresh Sonpal
 Naresh brings over 20 years of expertise in business growth, profit management, and innovation. Known for his focus on customer experience and team empowerment, he leverages cutting-edge technologies, including Cloud and GenAI, to drive impactful results.</h1></div>

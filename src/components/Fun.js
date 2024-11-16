@@ -47,7 +47,7 @@ function Life() {
  <RevealOnScroll>
   <div class=" mx-auto text-center mb-10 lg:mb-14">
   <RevealOnScroll>
-    <h2 class="text-2xl pt-5 font-bold md:text-4xl md:leading-tight text-gray-500">Life @ SMSCloud Hub</h2>
+    <h2 class="text-xl pt-5 font-bold md:text-4xl md:leading-tight text-gray-500">Life @ SMSCloud Hub</h2>
     <p class="p-5  text-sky-600 text-lg">SMSCloud Hub celebrates the most amazing and unique days of the year with style and fun</p>
     </RevealOnScroll>
   </div>

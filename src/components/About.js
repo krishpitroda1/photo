@@ -55,7 +55,7 @@ function About() {
           /> 
           <div className="flex flex-col lg:pl-5 justify-center">
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
-            <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
+            <h1 className="md:text-xl sm:text-xl text-blue-600 text-xl font-bold p-5">
           <RevealOnScroll>
           SMSCloud Hub provides innovative, cloud-based communication solutions, empowering Carriers, Hubs, Telcos, and Enterprise businesses to connect seamlessly through multiple channels, including A2P SMS. Our platform makes communication more conversational, personalized, engaging, and user-friendly.
           <br/>

@@ -54,7 +54,7 @@ function Tpo() {
           /> 
           <div className="flex flex-col lg:pl-5 ">
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
-            <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
+            <h1 className="md:text-xl sm:text-xl text-blue-600 text-xl font-bold p-5">
         
             This internship program significantly enhances the training and placement committee's ability to provide students with relevant industry exposure, boosting their employability. Engaging with real-world companies helps students cultivate essential skills in business analysis, communication along with AI-driven technologies — skills and qualities highly sought after by recruiters.
 <p className="pt-3">

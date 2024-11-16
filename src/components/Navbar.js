@@ -183,7 +183,7 @@ function Navbar() {
        <Link to="/Faq" className=" py-7 lg:py-12 hidden md:block">
          <p className="font-semibold text-lg">FAQs</p>
        </Link>
-       <Link to="/Contacts" className=" py-7 lg:py-12 hidden md:block">
+       <Link to="/ContactUs" className=" py-7 lg:py-12 hidden md:block">
          <p className="font-semibold text-lg">Contact Us</p>
        </Link>
        
@@ -434,7 +434,7 @@ function Navbar() {
 
       <li className="border-b  border-gray-600">
             <Link
-              to="/Contacts"
+              to="/ContactUs"
               className="py-7 inline-block hover:text-orange-600"
               
             >

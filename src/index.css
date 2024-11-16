@@ -5,7 +5,7 @@
 @layer base {
   body {
     overflow-x: hidden;
-    font-family: 'Calibri';
+    font-family: "Tahoma";
   }
 }
 .benefits {

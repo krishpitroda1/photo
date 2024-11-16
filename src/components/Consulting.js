@@ -61,10 +61,10 @@ function Consulting() {
             Acceleration & Tech Enablement 
 
             </h1>
-          <p className="font-bold lg:text-2xl text-2xl p-3  pr-4  text-gray-800 "> 
+          <p className="font-bold lg:text-xl text-xl p-3  pr-4  text-gray-800 "> 
           Our Core Business Growth Practice empowers clients across the globe to enhance their operations by leveraging innovative cloud technologies. We drive products and service innovation, accelerate business thus healthier financial performance, often enabling customers to maintain the competitive edge through continuous innovation.
           </p>
-          <p className="font-bold lg:text-2xl text-2xl p-3  pr-4  text-gray-800 "> 
+          <p className="font-bold lg:text-xl text-xl p-3  pr-4  text-gray-800 "> 
           In today’s interconnected world, where significant shifts in information and communication technologies are occurring, we focus on how tech companies can utilize their innovations to help businesses transform and thrive on a global scale. </p>
         
        {/* <div className="flex flex-col  justify-center"> */}
@@ -72,7 +72,7 @@ function Consulting() {
      {/* /       <h1 className="md:text-4xl sm:text-4xl text-blue-600 lg:text-3xl text-4xl font-bold p-5 pl-3 lg:pb-0"> */}
           {/* Techonology Tieup */}
             {/* </h1> */}
-          {/* <p className="font-bold lg:text-2xl text-2xl p-3  pr-4  text-gray-800 ">  */}
+          {/* <p className="font-bold lg:text-xl text-xl p-3  pr-4  text-gray-800 ">  */}
           {/* In today’s interconnected world, where significant shifts in information and communication technologies are occurring, we focus on how tech companies can utilize their innovations to help businesses transform and thrive on a global scale. </p>   </div> */}
       </div>
     
@@ -93,14 +93,14 @@ function Consulting() {
             {/* <h1 className="md:text-4xl text-4xl sm:text-4xl pl-3 text-blue-600 lg:text-3xl font-bold p-5 lg:pb-0"> */}
             {/* Alliance Development & Management */}
             {/* </h1> */}
-          {/* <p className="font-bold lg:text-2xl text-2xl p-3  pr-4  text-gray-800 ">  */}
+          {/* <p className="font-bold lg:text-xl text-xl p-3  pr-4  text-gray-800 ">  */}
           {/* We act as trusted advisors, assisting our clients in achieving breakthrough value by building comprehensive market-winning strategies with global alliances. We create data-driven programmes that help our clients transform their businesses with larger network and innovative ways </p> */}
        {/* <div className="flex flex-col  justify-center"> */}
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
             {/* <h1 className="md:text-4xl sm:text-4xl text-blue-600 lg:text-3xl text-4xl font-bold p-5 pl-3 lg:pb-0"> */}
           {/* Communication */}
             {/* </h1> */}
-           {/* <p className="font-bold lg:text-2xl text-2xl p-3  pr-4  text-gray-800 ">  */}
+           {/* <p className="font-bold lg:text-xl text-xl p-3  pr-4  text-gray-800 ">  */}
           {/* We provide CPaaS, SMS, Voice Connectivity, Platform & Managed Services; in India and Globally. </p> */}
       {/* </div> */}
       {/* <div className="flex flex-col  justify-center"> */}
@@ -108,7 +108,7 @@ function Consulting() {
             {/* <h1 className="md:text-4xl sm:text-4xl text-blue-600 lg:text-3xl text-4xl font-bold p-5 pl-3 lg:pb-0"> */}
           {/* Gaming */}
             {/* </h1> */}
-          {/* <p className="font-bold lg:text-2xl text-2xl p-3  pr-4  text-gray-800 "> 
+          {/* <p className="font-bold lg:text-xl text-xl p-3  pr-4  text-gray-800 "> 
           Our gaming business conveys a vivid encounter for gamers with an inventory that covers a wide scope of sorts and brags of the absolute best gaming IPs found in the new times. </p>
       </div>
       </div> */}

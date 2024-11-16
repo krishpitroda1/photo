@@ -56,7 +56,7 @@ function Ai1k() {
           /> 
           <div className="flex flex-col lg:pl-5 justify-center">
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
-            <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
+            <h1 className="md:text-xl sm:text-xl text-blue-600 text-xl font-bold p-5">
           <RevealOnScroll>
           The Ai1k project is an in-depth “Research based internship” allowing Management and Technology students to explore how AI is transforming the landscape of Indian businesses.
 <p className="pt-2" />

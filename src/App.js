@@ -3,7 +3,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import Contacts from "./components/Contacts";
+import ContactUs from "./components/ContactUs";
 import Navbar from "./components/Navbar";
 import Ai1k from "./components/AI1k";
 import Error from "./components/Error";
@@ -64,7 +64,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
-        <Route path="/Contacts" element={<Contacts />} />
+        <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="*" element={<Error />} />
         <Route path="/Terms" element= {<Terms/>}/>
         <Route path="/Privacy" element={<Privacy/>} />

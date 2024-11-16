@@ -56,18 +56,18 @@ function Students() {
           /> 
           <div className="flex flex-col lg:pl-5 justify-center">
             {/* <p className="text-sky-600 font-bold text-3xl">About Us</p> */}
-            <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5">
+            <h1 className="md:text-xl sm:text-xl text-blue-600 text-xl font-bold p-5">
     
             The Ai1k internship offers Management and Technology students with hands-on experience around the impact of Artificial Intelligence (AI) on real-world business environments.  By collaborating with IT, online and service sector companies, students can enhance their skills in research, business analytics, communication, lateral thinking and time management.
 </h1>
-            <h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5 pt-2 pb-2">
+            <h1 className="md:text-xl sm:text-xl text-blue-600 text-xl font-bold p-5 pt-2 pb-2">
 
             Participants will gain practical experience, expand their network along with sharpening their problem-solving abilities,  all while deepening their understanding of AI's influence. They also have the opportunity to develop entrepreneurial and marketing skills by offering services of SMSCloud Hub which will lead to monetary benefits to the students. 
 
 </h1>
-<h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl font-bold p-5 pt-2 pb-2">
+<h1 className="md:text-xl sm:text-xl text-blue-600 text-xl font-bold p-5 pt-2 pb-2">
   Benefits include:
-<h1 className="md:text-2xl sm:text-2xl text-blue-600 text-2xl italicfont-bold p-5 pt-2 pb-2">
+<h1 className="md:text-xl sm:text-xl text-blue-600 text-xl italicfont-bold p-5 pt-2 pb-2">
 - Authentic Digital Presence
 <br />
 - Internship Certificate
