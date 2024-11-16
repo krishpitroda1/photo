@@ -257,7 +257,7 @@ function Navbar() {
                 About us
               </Link>
             </li>
-            <li className="border-b  border-gray-600">
+            <li className="">
               <Link
                 to="/AI1k"
                 className="py-7  inline-block hover:text-orange-600"
@@ -308,11 +308,11 @@ function Navbar() {
             </li>
             <Link
                 to="/Mentoring"
-                className="py-7 inline-block hover:text-orange-600"
+                className="py-7 inline-block hover:text-orange-600 border-b  border-gray-600"
               >
                 Mentoring
               </Link>
-            <li className="border-b  border-gray-600">
+            <li className="">
               <Link
                 to="/Vas"
                 className="py-7  inline-block hover:text-orange-600"
