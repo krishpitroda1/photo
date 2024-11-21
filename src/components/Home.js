@@ -74,10 +74,10 @@ function Home() {
   return (
     <div className="w-screen homediv relative overflow-hidden">
       <Navbar />
-      <div className="relative lg:pt-6 pt-20">
+      <div className="relative lg:pt-8 pt-20">
         <video
           src={videobg2}
-          className=" blur-sm top-3  absolute rounded-lg "
+          className=" blur-sm top-5 absolute rounded-lg "
           autoPlay
           playsInline
           muted

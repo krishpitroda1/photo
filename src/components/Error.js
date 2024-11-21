@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Error() {
   return (
-    <div className='w-screen relative pt-12'>
+    <div className='w-screen relative pt-20'>
     <div class="max-w-[50rem] flex flex-col mx-auto w-full h-full">
       <header class="mb-auto flex justify-center z-50 w-full py-4">
         <nav class="px-4 sm:px-6 lg:px-8" aria-label="Global">

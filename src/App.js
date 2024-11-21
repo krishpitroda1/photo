@@ -15,6 +15,8 @@ import Faq from "./components/Faq";
 import Consulting from "./components/Consulting";
 import Mentoring from "./components/Mentoring";
 import Vas from "./components/Vas";
+import InternsCoC from "./components/InternsCoC";
+import Ai1kT from "./components/Ai1kT&C";
 import People from "./components/People";
 import Health from "./components/Health";
 import Fun from "./components/Fun";
@@ -81,8 +83,8 @@ function App() {
         <Route path="/Csr" element={<Csr/>} />
         <Route path="/Health" element={<Health/>} />
         <Route path="/Faq" element={<Faq/>} />
-        
-     
+        <Route path="/Ai1kT&C" element={<Ai1kT/>}/>
+        <Route path="/InternsCoC" element={<InternsCoC/>}/>
          </Routes>
     </div>
     <End className="absolute"/>

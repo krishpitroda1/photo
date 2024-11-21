@@ -37,7 +37,7 @@ function Privacy() {
   });
  
   return (
-    <div className='relative pt-7'>
+    <div className='relative pt-20'>
          
          <h1 className="align-center text-gray-600  pt-10 text-center w-screen  p-5  font-bold text-3xl ">
             Privacy Policy

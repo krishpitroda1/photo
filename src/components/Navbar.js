@@ -23,20 +23,37 @@ function Navbar() {
   });
 
   return (
-    <div className="w-screen top-0 fixed   z-50 ">
+    <div className="w-screen top-0 fixed  z-50 ">
    
       {/* <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer=""></script> */}
       <div className="navbar bg shadow-lg w-full md:px-10 px-7 md:flex justify-between text-black">
-      <div className="logo p-5">
+      <div className="logo p-5 h-50 w-40">
           {/* Your logo component or image goes here */}
           <Link to="/">
             <img src={Logo} alt="Logo"  />
           </Link>
-        </div>
+      </div>
+    
+      {/* <Link to="https://docs.google.com/forms/d/e/1FAIpQLScjBj6zPitsSgr_Vv7TDv7FUzwJv3dZjEy0XuqhXy-Hc4GAhw/viewform" target="_blank" className=" py-7 lg:py-12 hidden md:block text-blue-800">
+         <p className="font-semibold text-lg">Student Registration</p>
+       </Link>
+       <Link to="https://docs.google.com/forms/d/e/1FAIpQLScjBj6zPitsSgr_Vv7TDv7FUzwJv3dZjEy0XuqhXy-Hc4GAhw/viewform" target="_blank" className=" py-7 lg:py-12 hidden md:block text-blue-800">
+         <p className="font-semibold text-lg">College/TPO Registration</p>
+       </Link> */}
 
-        <div className="hidden md:flex justify-end gap-10 w-full">
+      
+       
+        <div className="hidden md:flex justify-end gap-10 lg:pt-2 w-full">
+
+      <Link to="https://docs.google.com/forms/d/e/1FAIpQLScjBj6zPitsSgr_Vv7TDv7FUzwJv3dZjEy0XuqhXy-Hc4GAhw/viewform" target="_blank" className=" py-7 lg:py-12 hidden md:block text-blue-800">
+         <p className="font-semibold text-lg">Student Registration</p>
+       </Link>
+       <Link to="https://docs.google.com/forms/d/e/1FAIpQLScjBj6zPitsSgr_Vv7TDv7FUzwJv3dZjEy0XuqhXy-Hc4GAhw/viewform" target="_blank" className=" py-7 lg:py-12 hidden md:block text-blue-800">
+         <p className="font-semibold text-lg">College/TPO Registration</p>
+       </Link>
           {/* Your content goes here */}
-          <div className="p-5 text-black justify-around hidden md:flex">
+          <div className="p-5 text-black justify-around hidden md:flex"
+>
           <div className="dropdown-link py-7 px-3 hidden md:block">
             <p className="flex droptext relative cursor-pointer font-semibold text-lg">
               Overview
@@ -56,6 +73,7 @@ function Navbar() {
               </svg>
               <div className="dropdown top-9 hidden absolute hover:block rounded-lg p-8 w-12 text-md shadow-xl bg-white">
                 <ul className="">
+                
                   <li className="hover:text-sky-600 hover:font-bold py-2 block ">
                     <Link to="/About">About us</Link>
                   </li> 
@@ -147,7 +165,7 @@ function Navbar() {
         <div className="p-5 text-black justify-around hidden md:flex">
           <div className="dropdown-link py-7 px-3 hidden md:block">
             <p className="flex droptext relative cursor-pointer font-semibold text-lg">
-              Fun & CSR
+              Fun&CSR
               <svg
                 className="dropdown-icon flex-shrink-0 ms-2 w-4 h-6"
                 xmlns="http://www.w3.org/2000/svg"
@@ -209,7 +227,7 @@ function Navbar() {
             : "fixed left-[-150%]"
         }
       >
-        <div className="flex flex-row justify-between  items-center pe-5  ">
+        <div className="flex flex-row justify-between items-center pe-5  ">
           <Link to="/" onClick={() => setNav(true)}>
             <img
               src={Logo}
@@ -227,8 +245,28 @@ function Navbar() {
         <ul className="lg:flex pt-24items-center gap-8 p-2 font-[Poppins] ">
         <li className="border-b  border-gray-600">
         <div className="dropdown-link py-7 md:block hover:text-orange-400">
+        <li className="border-b  border-gray-600">
+            <Link
+              to="/ContactUs"
+              className="py-7 inline-block hover:text-orange-600"
+              
+            >
+              Student Registration
+            </Link>
+
+          </li>
+          <li className="border-b  border-gray-600">
+            <Link
+              to="/ContactUs"
+              className="py-7 inline-block hover:text-orange-600"
+              
+            >
+            College/TPO Registration
+            </Link>
+
+          </li>
               <p
-                className="flex droptext relative cursor-pointer"
+                className="flex droptext relative text-center pt-8 cursor-pointer"
                 onClick={() => setShowRes(!showRes)}
               >
                 Overview

@@ -38,7 +38,7 @@ function Students() {
     window.scrollTo(0, 0);
   },[]);
   return (
-    <div className="w-screen  overflow-x-hidden p-8 ">
+    <div className="w-screen  overflow-x-hidden p-8 pt-20 ">
       <div className="">
         <h1 className="lg:l-5 sm:pl-5 pl-5 align-center text-gray-700 pt-10 text-center p-5  font-bold text-3xl">
         <RevealOnScroll>
@@ -75,9 +75,20 @@ function Students() {
 - Research Results
 <br />
 -  Earning potential between INR 10,000 to 65,000
-</h1>
+<br />
 
 </h1>
+</h1>
+<p className="text-sm text-black p-3"> 
+By applying for internship you agree to 
+<Link to="/InternsCoC">
+<span className="text-blue-800">"Code of Conduct"</span> 
+</Link>
+& 
+<Link to="/Ai1kT&C">
+<span className="text-blue-800">"Terms & Conditions"</span>
+</Link>
+  </p>
 <div className="p-3 pl-7">
               
           </div> 

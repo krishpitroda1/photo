@@ -43,7 +43,7 @@ const RevealOnScroll = ({ children }) => {
 function Life() {
   return (
     <div>
- <div class="w-screen px-4 relative pt-16 sm:px-6 lg:px-8 lg:py-14 mx-auto pb-8">
+ <div class="w-screen px-4 pt-20 relative  sm:px-6 lg:px-8 lg:py-14 mx-auto pb-8">
  <RevealOnScroll>
   <div class=" mx-auto text-center mb-10 lg:mb-14">
   <RevealOnScroll>

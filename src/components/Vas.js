@@ -39,7 +39,7 @@ function Consulting() {
     window.scrollTo(0, 0);
   },[]);
   return (
-    <div className="w-screen  overflow-x-hidden p-8 ">
+    <div className="w-screen pt-20  overflow-x-hidden p-8 ">
       <div className="">
         <h1 className="lg:l-5 sm:pl-5 pl-5 text-gray-700 pt-10 text-center p-5  font-bold text-3xl">
         <RevealOnScroll>

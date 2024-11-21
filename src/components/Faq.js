@@ -12,7 +12,7 @@ const faqData = [
   },
   {
     question: "3. How do I apply for this nationwide internship?",
-    answer: "Students should connect with their college/institute's Training & Placement Committee, request them to apply via email on info@ai1k.online with list of students who want to participate in this nationwide initiative",
+    answer: "You can visit the Ai1k home page and click on 'Student Registration' tab.",
   },
   {
     question: "4. What is the duration of this internship?",
@@ -28,7 +28,7 @@ const faqData = [
   },
   {
     question: "7. Is this internship paid or unpaid?",
-    answer: "For all selected students, this is an unpaid internship with an opportunity to earn between INR 10,000 to 65,000 during the 8-12 weeks based on your entrepreneurial involvement.",
+    answer: "For all selected students, this is a free internship with a handsome opportunity to earn between INR 10,000 to 65,000 during the internship period, based on your entrepreneurial involvement.",
   },
   {
     question: "8. Will selected students get any pre-internship training/orientation?",
@@ -77,7 +77,7 @@ const Faq = () => {
 
   return (
     <div className="faq-page">
-      <h1 className='text-3xl sm:pt-15 md:pt-15 pt-11 lg:pt-0 pb-10'>Frequently asked Questions</h1>
+      <h1 className='text-3xl sm:pt-15 md:pt-15 pt-20 lg:pt-0 pb-10'>Frequently asked Questions</h1>
       <div className="faq-container text-xl">
         {faqData.map((item, index) => (
           <div key={index} className="faq-item">

@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ReactGA from "react-ga4";
 import { HashRouter } from "react-router-dom";
-ReactGA.initialize("G-TXGYB57J43");
+ReactGA.initialize("G-V49K3HKEMB");
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 ReactGA.send({ hitType: "pageview",

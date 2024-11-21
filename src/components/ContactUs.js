@@ -6,6 +6,7 @@ import { FaWpforms } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
+import countapi from 'countapi-js';
 import { useEffect,useState } from 'react';
 import mail from '../assets/mail.png'
 const RevealOnScroll = ({ children }) => {
@@ -60,14 +61,14 @@ function ContactUs() {
   };
   return (
   
-    <div className='w-screen pt-7 relative justify-items-center overflow-x-hidden'>
-      <h1 class="pt-16 text-center text-3xl font-bold text-gray-700 sm:text-4xl h-20 p-5">
+    <div className='w-screen pt-20 relative justify-items-center overflow-x-hidden'>
+      <h1 class="pt-10 text-center text-3xl font-bold text-gray-700 sm:text-4xl h-20 p-5">
         Contact us
       </h1>
     <div>
       <RevealOnScroll>
         <div class="">
-  <div class="p-5 pt-2 w-screen">
+  <div class="p-5 pt-0 w-screen">
     <div class=" ">
       
       <p class="text-xl text-gray-400 text-center pt-3 p-5">
