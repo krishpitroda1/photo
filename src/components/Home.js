@@ -6,10 +6,11 @@ import videobg from "../assets/videobg.mp4";
 import { BrowserRouter as Router } from 'react-router-dom';
 import { useEffect, useState, useRef } from "react";
 import img from "../assets/logo.jpg";
+import Features from "../Features";
 import img1 from '../assets/home1.jpeg'
 import videobg1 from "../assets/videobg1.mp4";
 import videobg2 from "../assets/videobg2.mp4";
-
+import img5 from "../assets/dashboard.jpeg";
 // import img1 from '../assets/cons.jpeg';
 // import img4 from '../assets/tech2.jpg'
 // import img3 from "../assets/manage.jpg";
@@ -75,69 +76,37 @@ function Home() {
     <div className="w-screen homediv relative overflow-hidden">
       <Navbar />
       <div className="relative lg:pt-8 pt-20">
-        <video
+        {/* <video
           src={videobg2}
           className=" blur-sm top-5 absolute rounded-lg "
           autoPlay
           playsInline
           muted
           loop
-        ></video>
-
+        ></video> */}
+        <img src={img5} className="w-full blur-sm top-5 absolute h-auto" />
         <div className=" relative pt-14 lg:pt-10 my-auto first max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center text-5xl flex flex-col justify-center text-sky-400  overflow-hidden">
-       <h1 className="font-bold text-white  lg:text-6xl md:text-xl md:pr-5">Ai1k: Shaping the Future of Communication with AI</h1>
+       <h1 className="font-bold text-gree-400  lg:text-6xl md:text-xl md:pr-5">CloudSkool++ 
+       <br />
+       Simple, Safe, Smart</h1>
         <h1 className="text-amber-900 relative font-bold lg:text-xl p-2 lg:p-40 lg:pt-5 lg:pb-5 text-4xl md:text-xl md:py-6">
-        Join over 1000+ MBA and engineering students nationwide in a collaborative research and analysis journey to assess the impact of AI!
-
+        E L I M I N A T E T H E C O M P L I C A T I O N S O F M U L T I P L E  
+S O F T W A R E S O L U T I O N S, CS++ M A N A G E S I T A L L !
           </h1>
 <p className="font-bold text-blue-800 p-0 italic pt-3 pl-5 pr-5 text-3xl">
-Learn, Earn, and Analyze the Future of AI-Driven Business Communication!{/* <span className="text-white text-4xl"> {words[index]}</span> */}
+The 
+CloudSkool++  
+enables 
+complete 
+insights for the 
+management 
+with a single 
+click
             </p>
         </div>
       </div>
       {/* ----------------------------------------- service------------------------------------------------------- */}
-      <div className=" w-screen pt-8 relative pb-8">
-      <RevealOnScroll>
-
-        <h1 className="align-center text-gray-800  pt-16 text-center p-5 pb-0  font-bold text-4xl">
-        About the Program
-        </h1>
-        <div className=" lg:flex md:grid md:grid-cols-2  lg:p-5 md:p-0 sm:p-0">
-          <img
-            src={img1}
-            className="w-[500px] mx-auto   my-4 rounded-2xl"
-            alt=""
-          />
-          <div className="flex flex-col mx-auto ">
-            <RevealOnScroll>
-            <p className="font-bold lg:text-xl text-xl p-3 lg:pt-20 pt-7 pr-4  lg:p-7 lg:pb-0 text-gray-800 ">Ai1k is a comprehensive research-based internship designed for students to Analyze the transformative effects of Artificial Intelligence on the Indian business landscape.
-           <p className="pt-5"/>
-           Through Ai1k, we aim to assess the impact of AI on communication channels across diverse sectors, shaping the way businesses interact and innovate.  
-       </p>       <p className="font-bold lg:text-xl text-xl p-3  pr-4  lg:p-7  text-gray-800 ">As part of the AI1k research journey, participants will uncover the evolving role of AI in business communications and explore its influence on Indian businesses and their stakeholders.
-       </p>
-             </RevealOnScroll>
-         {/* <div className="text-2xl text-gray-700 lg:pl-7 md:pl-5 pl-4 ">
-
-             <ul>
-          <li>1000 MBA students from 100 top colleges</li>
-          <li>Flexible, remote work</li>
-          <li>Certification and public recognition</li>
-          <li>Earnings up to ₹100,000</li>
-        </ul>
-         </div>
-       */}
-        {/* <div className="p-3 pl-7">
-                  <Link to='/Ai1k'>
-                  <button className="rounded-md p-5 text-white bg-gray-800 ">
-                    Read More 
-                    
-                    </button>
-                  </Link>
-                </div> */}
-          </div>
-        </div>
-        </RevealOnScroll>
-      </div>
+          <Features/>
   
       </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/logo.jpg";
+import Logo from "../assets/logo.png";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -59,7 +59,7 @@ function End() {
                 }}
                 aria-label="Brand"
               >
-                <img src={Logo} alt="CloudContactCenter" className="w-64 h-64" />
+                <img src={Logo} alt="CloudContactCenter" className="w-40 h-40" />
               </div>
             </div>
 
@@ -75,6 +75,7 @@ function End() {
               </p>
 
               <div className="mt-3 grid space-y-3">
+            
                 <p>
                   <Link
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 "
@@ -84,7 +85,7 @@ function End() {
                   </Link>
                 </p>
 
-                <p>
+                {/* <p>
                   <Link
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 "
                     to="/About"
@@ -92,13 +93,13 @@ function End() {
                     About us
                   </Link>
                 </p>
-          
+           */}
                 <p>
                   <Link
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 "
-                    to="/Services"
+                    to="/Features"
                   >
-                    Services
+                    Features
                   </Link>
               </p>
                 <p>
@@ -139,7 +140,7 @@ function End() {
             
               <p className="p-2 ps-0 gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 cursor-pointer">
               
-                info@ai1k.online
+                info@smscloudhub.com
               </p>
             </div>
           </div>
