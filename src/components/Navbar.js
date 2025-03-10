@@ -48,7 +48,7 @@ function Navbar() {
       <Link to="https://docs.google.com/forms/d/e/1FAIpQLScjBj6zPitsSgr_Vv7TDv7FUzwJv3dZjEy0XuqhXy-Hc4GAhw/viewform" target="_blank" className=" py-7 lg:py-12 hidden md:block text-blue-800">
          <p className="font-semibold text-lg">Student Registration</p>
        </Link>
-       <Link to="https://docs.google.com/forms/d/e/1FAIpQLScjBj6zPitsSgr_Vv7TDv7FUzwJv3dZjEy0XuqhXy-Hc4GAhw/viewform" target="_blank" className=" py-7 lg:py-12 hidden md:block text-blue-800">
+       <Link to="https://docs.google.com/forms/d/14afzO31dTbWWiOKRLLsj97NTcSmZVEEc2jhTh19Eujk/edit" target="_blank" className=" py-7 lg:py-12 hidden md:block text-blue-800">
          <p className="font-semibold text-lg">College/TPO Registration</p>
        </Link>
           {/* Your content goes here */}
@@ -247,7 +247,7 @@ function Navbar() {
         <div className="dropdown-link py-7 md:block hover:text-orange-400">
         <li className="border-b  border-gray-600">
             <Link
-              to="/ContactUs"
+              to="https://docs.google.com/forms/d/e/1FAIpQLScjBj6zPitsSgr_Vv7TDv7FUzwJv3dZjEy0XuqhXy-Hc4GAhw/viewform" target="_blank"
               className="py-7 inline-block hover:text-orange-600"
               
             >
@@ -257,9 +257,9 @@ function Navbar() {
           </li>
           <li className="border-b  border-gray-600">
             <Link
-              to="/ContactUs"
+              to="https://docs.google.com/forms/d/14afzO31dTbWWiOKRLLsj97NTcSmZVEEc2jhTh19Eujk/edit"
               className="py-7 inline-block hover:text-orange-600"
-              
+              target="_blank"
             >
             College/TPO Registration
             </Link>

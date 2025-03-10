@@ -107,7 +107,7 @@ function ContactUs() {
             </div>
           </div>
           <div className='pt-3'>
-              <input type="checkbox" required /> I agree to all the <a href="">
+              <input type="checkbox" required /> I agree to receive notifications via SMS, Email, RCS, and other communication channels from the brand, and I accept all the<a href="">
              <Link    className="inline-flex gap-x-2 text-white hover:text-gray-200 "
                     to="/Terms"
                  > Terms & Conditions</Link> 
