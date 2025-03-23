@@ -1,6 +1,12 @@
-import React, { useState, useEffect } from "react"; 
+import React, { useState, useEffect } from "react";
+import { Routes, Route } from "react-router-dom"; // Removed BrowserRouter
 import SplashScreen from "./components/SplashScreen";
 import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import People from "./pages/People";
+import Jewellery from "./pages/Jewellery";
+import Products from "./pages/Products";
+import ContactUs from "./pages/ContactUs";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -18,16 +24,17 @@ function App() {
       ) : (
         <>
           {/* Navbar */}
-          <Navbar />
+          <Navbar/>
 
           {/* Main Content */}
           <main className="p-6 text-center">
-            <h1 className="text-4xl font-bold text-gray-900">
-              Welcome to My Photography Portfolio
-            </h1>
-            <p className="text-lg text-gray-600 mt-4">
-              Capturing timeless moments with elegance and creativity.
-            </p>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/people" element={<People />} />
+              <Route path="/jewellery" element={<Jewellery />} />
+              <Route path="/products" element={<Products />} />
+              <Route path="/ContactUs" element={<ContactUs />} />
+            </Routes>
           </main>
         </>
       )}
